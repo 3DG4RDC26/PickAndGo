@@ -3,11 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\pagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\pagocaja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\reporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\estadodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\estadodepago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\source\\repos\\pickandgo\\pickandgo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +62,105 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reporte.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Reporte.cs",
+              "RelativeDocumentMoniker": "Models\\Reporte.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Reporte.cs",
+              "RelativeToolTip": "Models\\Reporte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:30:32.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvyYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:30:02.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PagoCaja.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\PagoCaja.cs",
+              "RelativeDocumentMoniker": "Models\\PagoCaja.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\PagoCaja.cs",
+              "RelativeToolTip": "Models\\PagoCaja.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:29:30.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Menu.cs",
+              "RelativeToolTip": "Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:28:59.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstadoDePago.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\EstadoDePago.cs",
+              "RelativeDocumentMoniker": "Models\\EstadoDePago.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\EstadoDePago.cs",
+              "RelativeToolTip": "Models\\EstadoDePago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:28:30.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Comida.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Comida.cs",
+              "RelativeDocumentMoniker": "Models\\Comida.cs",
+              "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Comida.cs",
+              "RelativeToolTip": "Models\\Comida.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T23:26:33.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "Models\\Cliente.cs",
               "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Models\\Cliente.cs",
               "RelativeToolTip": "Models\\Cliente.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T23:17:55.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\andrea\\source\\repos\\PickAndGo\\PickAndGo\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T21:50:11.457Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-17T21:50:11.457Z"
             }
           ]
         }
