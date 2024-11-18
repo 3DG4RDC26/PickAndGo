@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,11 @@ namespace PickAndGo.Formularios
 
       private void btnRegistrarse_Click(object sender, EventArgs e)
       {
+         string Nombre = (tbName.Text);
+         int CedulaCif = int.Parse(tbCedula.Text);
+         string Contraseña = (tbPassword.Text);
+         string Telefono = (tbPhoneNumber.Text);
+         
          MessageBox.Show("Gracias por registrarse");
          Close();
       }

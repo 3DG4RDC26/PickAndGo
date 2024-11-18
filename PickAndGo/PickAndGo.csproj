@@ -81,7 +81,7 @@
     <Compile Include="Models\Comida.cs" />
     <Compile Include="Models\EstadoDePago.cs" />
     <Compile Include="Models\Menu.cs" />
-    <Compile Include="Models\PagoCaja.cs" />
+    <Compile Include="Models\Pedido.cs" />
     <Compile Include="Models\Reporte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
