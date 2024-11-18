@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace PickAndGo.Formularios
 {
-    public partial class Menú : MetroFramework.Forms.MetroForm
+    public partial class Inicio : MetroFramework.Forms.MetroForm
     {
-        public Menú()
+        public Inicio()
         {
             InitializeComponent();
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
+        private void Inicio_Load(object sender, EventArgs e)
         {
-            Inicio formInicio = new Inicio();
-            formInicio.Show();
+
         }
     }
 }

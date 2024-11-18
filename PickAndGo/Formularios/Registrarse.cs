@@ -28,5 +28,10 @@ namespace PickAndGo.Formularios
          MessageBox.Show("Gracias por registrarse");
          Close();
       }
-   }
+
+        private void Registrarse_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
