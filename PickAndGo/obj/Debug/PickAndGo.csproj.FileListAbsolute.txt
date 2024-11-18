@@ -30,3 +30,19 @@ C:\Users\labc205\Desktop\SemestreIIEd\PickAndGo\PickAndGo\PickAndGo\bin\Debug\Me
 C:\Users\labc205\Desktop\SemestreIIEd\PickAndGo\PickAndGo\PickAndGo\bin\Debug\MetroFramework.dll
 C:\Users\labc205\Desktop\SemestreIIEd\PickAndGo\PickAndGo\PickAndGo\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\labc205\Desktop\SemestreIIEd\PickAndGo\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.Up2Date
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\PickAndGo.exe.config
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\PickAndGo.exe
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\PickAndGo.pdb
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\MetroFramework.Design.dll
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\MetroFramework.dll
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.AssemblyReference.cache
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Formularios.Menú.resources
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Formularios.Registrarse.resources
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Login.resources
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Properties.Resources.resources
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.GenerateResource.cache
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.CoreCompileInputs.cache
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.Up2Date
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.exe
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.pdb

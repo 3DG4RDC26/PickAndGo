@@ -43,5 +43,10 @@ namespace PickAndGo
             MessageBox.Show("Error al abrir el formulario de registro: " + ex.Message);
          }
       }
-   }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

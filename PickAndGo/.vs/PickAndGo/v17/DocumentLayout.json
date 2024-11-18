@@ -1,26 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\",
+  "WorkspaceRootPath": "C:\\Users\\andrea\\Documents\\Rama Edgard\\PickAndGo\\PickAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\labc205\\desktop\\semestreiied\\pickandgo\\pickandgo\\pickandgo\\formularios\\men\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\men\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\andrea\\documents\\rama edgard\\pickandgo\\pickandgo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\labc205\\desktop\\semestreiied\\pickandgo\\pickandgo\\pickandgo\\formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +14,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Men\u00FA.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Men\u00FA.cs",
-              "RelativeDocumentMoniker": "Formularios\\Men\u00FA.cs",
-              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Men\u00FA.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Formularios\\Men\u00FA.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:26:35.237Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registrarse.cs",
-              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs",
-              "RelativeDocumentMoniker": "Formularios\\Registrarse.cs",
-              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs",
-              "RelativeToolTip": "Formularios\\Registrarse.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:51:08.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Login.cs",
-              "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:37:52.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\andrea\\Documents\\Rama Edgard\\PickAndGo\\PickAndGo\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Login.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\andrea\\Documents\\Rama Edgard\\PickAndGo\\PickAndGo\\Login.cs [Dise\u00F1o]",
               "RelativeToolTip": "Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:37:12.863Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Registrarse.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs",
-              "RelativeDocumentMoniker": "Formularios\\Registrarse.cs",
-              "ToolTip": "C:\\Users\\labc205\\Desktop\\SemestreIIEd\\PickAndGo\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Formularios\\Registrarse.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:47:37.175Z",
+              "WhenOpened": "2024-11-18T14:49:04.81Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
