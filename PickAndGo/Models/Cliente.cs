@@ -11,10 +11,18 @@ namespace PickAndGo.Models
         public int IdCliente { get; set; }
         public string Nombre { get; set; }
 
-        public Cliente(int idCliente, string nombre)
+        public int Telefono { get; set; }
+        public int Cif { get; set; }
+
+
+        public Cliente(int idCliente, string nombre, int telefono, int cif)
         {
             IdCliente = idCliente;
             Nombre = nombre;
+            Telefono = telefono;
+            Cif = cif;
+            
         }
+
     }
 }

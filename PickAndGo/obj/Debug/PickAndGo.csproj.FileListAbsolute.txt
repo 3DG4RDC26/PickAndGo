@@ -1,0 +1,15 @@
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\PickAndGo.exe.config
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\PickAndGo.exe
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\PickAndGo.pdb
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\MetroFramework.Design.dll
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\MetroFramework.dll
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.AssemblyReference.cache
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Form1.resources
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Properties.Resources.resources
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.GenerateResource.cache
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.CoreCompileInputs.cache
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.Up2Date
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.exe
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.pdb
+C:\Users\andrea\Source\Repos\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Form2.resources
