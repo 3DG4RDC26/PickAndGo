@@ -28,33 +28,50 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(0, 5);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 442);
-            this.panel1.TabIndex = 0;
-            // 
-            // Menú
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
-            this.Name = "Menú";
-            this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Text = "Menú";
-            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
-            this.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.ResumeLayout(false);
+         this.panel1 = new System.Windows.Forms.Panel();
+         this.pictureBox1 = new System.Windows.Forms.PictureBox();
+         this.panel1.SuspendLayout();
+         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+         this.SuspendLayout();
+         // 
+         // panel1
+         // 
+         this.panel1.Controls.Add(this.pictureBox1);
+         this.panel1.Location = new System.Drawing.Point(0, 5);
+         this.panel1.Name = "panel1";
+         this.panel1.Size = new System.Drawing.Size(200, 442);
+         this.panel1.TabIndex = 0;
+         // 
+         // pictureBox1
+         // 
+         this.pictureBox1.BackgroundImage = global::PickAndGo.Properties.Resources.proyect;
+         this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+         this.pictureBox1.Location = new System.Drawing.Point(44, 22);
+         this.pictureBox1.Name = "pictureBox1";
+         this.pictureBox1.Size = new System.Drawing.Size(111, 109);
+         this.pictureBox1.TabIndex = 0;
+         this.pictureBox1.TabStop = false;
+         // 
+         // Menú
+         // 
+         this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+         this.ClientSize = new System.Drawing.Size(800, 450);
+         this.Controls.Add(this.panel1);
+         this.Name = "Menú";
+         this.Style = MetroFramework.MetroColorStyle.Orange;
+         this.Text = "Menú";
+         this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+         this.Theme = MetroFramework.MetroThemeStyle.Dark;
+         this.panel1.ResumeLayout(false);
+         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+         this.ResumeLayout(false);
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-    }
+      private System.Windows.Forms.PictureBox pictureBox1;
+   }
 }
