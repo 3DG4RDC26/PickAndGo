@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PickAndGo
 {
-    public partial class Form1 : Form
+    public partial class Login : MetroFramework.Forms.MetroForm
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }

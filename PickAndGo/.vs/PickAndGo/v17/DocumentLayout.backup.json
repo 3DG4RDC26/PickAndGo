@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\edgar\\onedrive\\documentos\\c#\\pickandgo\\pickandgo\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\edgar\\onedrive\\documentos\\c#\\pickandgo\\pickandgo\\formularios\\men\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\men\u00FA.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\edgar\\onedrive\\documentos\\c#\\pickandgo\\pickandgo\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\edgar\\onedrive\\documentos\\c#\\pickandgo\\pickandgo\\formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +27,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Title": "Men\u00FA.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Formularios\\Men\u00FA.cs",
+              "RelativeDocumentMoniker": "Formularios\\Men\u00FA.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Formularios\\Men\u00FA.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\Men\u00FA.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T04:29:06.713Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T21:50:11.457Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registrarse.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs",
+              "RelativeDocumentMoniker": "Formularios\\Registrarse.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\PickAndGo\\Formularios\\Registrarse.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Formularios\\Registrarse.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T03:56:29.089Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
