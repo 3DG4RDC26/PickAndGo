@@ -16,5 +16,11 @@ namespace PickAndGo.Formularios
         {
             InitializeComponent();
         }
-    }
+
+      private void btnRegistrarse_Click(object sender, EventArgs e)
+      {
+         MessageBox.Show("Gracias por registrarse");
+         Close();
+      }
+   }
 }
