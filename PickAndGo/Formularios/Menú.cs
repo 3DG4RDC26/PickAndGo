@@ -15,12 +15,57 @@ namespace PickAndGo.Formularios
         public Menú()
         {
             InitializeComponent();
+            customizeDesign();
         }
+
+        private void customizeDesign()
+        {
+            panelMenu.Visible = false;
+        }
+
+        private void hideSubMenu()
+        {
+            if (panelMenu.Visible == true)
+            {
+                panelMenu.Visible = false;
+            }
+        }
+
+        private void showSubMenu(Panel subMenu)
+        {
+            if (subMenu.Visible == false)
+            {
+                hideSubMenu();
+                subMenu.Visible = true;
+            }
+            else
+            {
+                subMenu.Visible = false;
+            }
+
+        }
+
+
 
         private void btnHome_Click(object sender, EventArgs e)
         {
             Inicio formInicio = new Inicio();
             formInicio.Show();
+        }
+
+        private void Menú_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
