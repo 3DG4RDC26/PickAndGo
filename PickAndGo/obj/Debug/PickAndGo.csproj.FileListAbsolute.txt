@@ -46,3 +46,4 @@ C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.cs
 C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.Up2Date
 C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.exe
 C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.pdb
+C:\Users\andrea\Documents\Rama Edgard\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Formularios.Inicio.resources
