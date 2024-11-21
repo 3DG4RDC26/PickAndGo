@@ -65,7 +65,57 @@ namespace PickAndGo.Formularios
 
         private void button2_Click(object sender, EventArgs e)
         {
+            hideSubMenu();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panelMenu);
+        }
+
+        private void btnPizza_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnCalzone_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnPasta_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnBreakfast_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnWing_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnDrink_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
+        }
+
+        private void btnConfig_Click(object sender, EventArgs e)
+        {
+            hideSubMenu();
         }
     }
 }
