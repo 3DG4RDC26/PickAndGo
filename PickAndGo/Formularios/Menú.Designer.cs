@@ -29,136 +29,93 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnMenu = new System.Windows.Forms.Button();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.btnPizza = new System.Windows.Forms.Button();
-            this.btnCalzone = new System.Windows.Forms.Button();
-            this.btnDrink = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnDrinks = new System.Windows.Forms.Button();
             this.btnBreakfast = new System.Windows.Forms.Button();
             this.btnWing = new System.Windows.Forms.Button();
             this.btnPasta = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnCart = new System.Windows.Forms.Button();
+            this.btnCalzone = new System.Windows.Forms.Button();
+            this.btnPizza = new System.Windows.Forms.Button();
+            this.btnBurguer = new System.Windows.Forms.Button();
+            this.panelSlideMenu = new System.Windows.Forms.Panel();
             this.btnConfig = new System.Windows.Forms.Button();
-            this.btnOrder = new System.Windows.Forms.Button();
+            this.btnPedido = new System.Windows.Forms.Button();
+            this.btnCart = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.panelMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.panelSlideMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.btnOrder);
-            this.panel1.Controls.Add(this.btnConfig);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.btnCart);
-            this.panel1.Controls.Add(this.btnMenu);
-            this.panel1.Controls.Add(this.panelMenu);
-            this.panel1.Location = new System.Drawing.Point(-1, 3);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Controls.Add(this.pbLogo);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(255, 923);
-            this.panel1.TabIndex = 0;
+            this.panel1.Size = new System.Drawing.Size(210, 157);
+            this.panel1.TabIndex = 1;
             // 
-            // btnMenu
+            // pbLogo
             // 
-            this.btnMenu.BackColor = System.Drawing.Color.Black;
-            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMenu.Location = new System.Drawing.Point(-3, 194);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(258, 67);
-            this.btnMenu.TabIndex = 0;
-            this.btnMenu.Text = "Menú";
-            this.btnMenu.UseVisualStyleBackColor = false;
-            this.btnMenu.Click += new System.EventHandler(this.button1_Click);
+            this.pbLogo.BackgroundImage = global::PickAndGo.Properties.Resources.proyect;
+            this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbLogo.Location = new System.Drawing.Point(31, 16);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(148, 134);
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
+            this.pbLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panelMenu
             // 
-            this.panelMenu.BackColor = System.Drawing.Color.Black;
-            this.panelMenu.Controls.Add(this.btnPizza);
-            this.panelMenu.Controls.Add(this.btnCalzone);
-            this.panelMenu.Controls.Add(this.btnDrink);
-            this.panelMenu.Controls.Add(this.button2);
+            this.panelMenu.Controls.Add(this.btnDrinks);
             this.panelMenu.Controls.Add(this.btnBreakfast);
             this.panelMenu.Controls.Add(this.btnWing);
             this.panelMenu.Controls.Add(this.btnPasta);
-            this.panelMenu.Location = new System.Drawing.Point(-3, 274);
+            this.panelMenu.Controls.Add(this.btnCalzone);
+            this.panelMenu.Controls.Add(this.btnPizza);
+            this.panelMenu.Controls.Add(this.btnBurguer);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelMenu.Location = new System.Drawing.Point(0, 217);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(264, 303);
-            this.panelMenu.TabIndex = 1;
+            this.panelMenu.Size = new System.Drawing.Size(210, 284);
+            this.panelMenu.TabIndex = 3;
+            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
-            // btnPizza
+            // btnDrinks
             // 
-            this.btnPizza.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.btnPizza.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPizza.FlatAppearance.BorderSize = 0;
-            this.btnPizza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPizza.Location = new System.Drawing.Point(0, 45);
-            this.btnPizza.Name = "btnPizza";
-            this.btnPizza.Size = new System.Drawing.Size(264, 43);
-            this.btnPizza.TabIndex = 6;
-            this.btnPizza.Text = "Pizzas";
-            this.btnPizza.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPizza.UseVisualStyleBackColor = false;
-            this.btnPizza.Click += new System.EventHandler(this.btnPizza_Click);
-            // 
-            // btnCalzone
-            // 
-            this.btnCalzone.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.btnCalzone.FlatAppearance.BorderSize = 0;
-            this.btnCalzone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalzone.Location = new System.Drawing.Point(0, 84);
-            this.btnCalzone.Name = "btnCalzone";
-            this.btnCalzone.Size = new System.Drawing.Size(287, 49);
-            this.btnCalzone.TabIndex = 5;
-            this.btnCalzone.Text = "Calzones";
-            this.btnCalzone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalzone.UseVisualStyleBackColor = false;
-            this.btnCalzone.Click += new System.EventHandler(this.btnCalzone_Click);
-            // 
-            // btnDrink
-            // 
-            this.btnDrink.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.btnDrink.FlatAppearance.BorderSize = 0;
-            this.btnDrink.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDrink.Location = new System.Drawing.Point(-3, 244);
-            this.btnDrink.Name = "btnDrink";
-            this.btnDrink.Size = new System.Drawing.Size(287, 43);
-            this.btnDrink.TabIndex = 4;
-            this.btnDrink.Text = "Bebidas";
-            this.btnDrink.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDrink.UseVisualStyleBackColor = false;
-            this.btnDrink.Click += new System.EventHandler(this.btnDrink_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DarkGoldenrod;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(0, 0);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(264, 45);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Hamburguesa";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnDrinks.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnDrinks.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDrinks.FlatAppearance.BorderSize = 0;
+            this.btnDrinks.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDrinks.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDrinks.Location = new System.Drawing.Point(0, 240);
+            this.btnDrinks.Name = "btnDrinks";
+            this.btnDrinks.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnDrinks.Size = new System.Drawing.Size(210, 40);
+            this.btnDrinks.TabIndex = 6;
+            this.btnDrinks.Text = "Bebidas";
+            this.btnDrinks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDrinks.UseVisualStyleBackColor = false;
+            this.btnDrinks.Click += new System.EventHandler(this.btnDrinks_Click);
             // 
             // btnBreakfast
             // 
             this.btnBreakfast.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnBreakfast.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnBreakfast.FlatAppearance.BorderSize = 0;
+            this.btnBreakfast.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBreakfast.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBreakfast.Location = new System.Drawing.Point(-3, 206);
+            this.btnBreakfast.Location = new System.Drawing.Point(0, 200);
             this.btnBreakfast.Name = "btnBreakfast";
-            this.btnBreakfast.Size = new System.Drawing.Size(287, 47);
-            this.btnBreakfast.TabIndex = 3;
+            this.btnBreakfast.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnBreakfast.Size = new System.Drawing.Size(210, 40);
+            this.btnBreakfast.TabIndex = 5;
             this.btnBreakfast.Text = "Desayuno";
             this.btnBreakfast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBreakfast.UseVisualStyleBackColor = false;
@@ -167,12 +124,15 @@
             // btnWing
             // 
             this.btnWing.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnWing.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnWing.FlatAppearance.BorderSize = 0;
+            this.btnWing.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnWing.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWing.Location = new System.Drawing.Point(-3, 168);
+            this.btnWing.Location = new System.Drawing.Point(0, 160);
             this.btnWing.Name = "btnWing";
-            this.btnWing.Size = new System.Drawing.Size(287, 47);
-            this.btnWing.TabIndex = 2;
+            this.btnWing.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnWing.Size = new System.Drawing.Size(210, 40);
+            this.btnWing.TabIndex = 4;
             this.btnWing.Text = "Alitas";
             this.btnWing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnWing.UseVisualStyleBackColor = false;
@@ -181,114 +141,204 @@
             // btnPasta
             // 
             this.btnPasta.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnPasta.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnPasta.FlatAppearance.BorderSize = 0;
+            this.btnPasta.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPasta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPasta.Location = new System.Drawing.Point(-3, 121);
+            this.btnPasta.Location = new System.Drawing.Point(0, 120);
             this.btnPasta.Name = "btnPasta";
-            this.btnPasta.Size = new System.Drawing.Size(287, 57);
-            this.btnPasta.TabIndex = 1;
+            this.btnPasta.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnPasta.Size = new System.Drawing.Size(210, 40);
+            this.btnPasta.TabIndex = 3;
             this.btnPasta.Text = "Pastas";
             this.btnPasta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPasta.UseVisualStyleBackColor = false;
             this.btnPasta.Click += new System.EventHandler(this.btnPasta_Click);
             // 
-            // pictureBox1
+            // btnCalzone
             // 
-            this.pictureBox1.BackgroundImage = global::PickAndGo.Properties.Resources.proyect;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(35, 5);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(186, 175);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.btnCalzone.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnCalzone.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCalzone.FlatAppearance.BorderSize = 0;
+            this.btnCalzone.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCalzone.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalzone.Location = new System.Drawing.Point(0, 80);
+            this.btnCalzone.Name = "btnCalzone";
+            this.btnCalzone.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnCalzone.Size = new System.Drawing.Size(210, 40);
+            this.btnCalzone.TabIndex = 2;
+            this.btnCalzone.Text = "Calzones";
+            this.btnCalzone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCalzone.UseVisualStyleBackColor = false;
+            this.btnCalzone.Click += new System.EventHandler(this.btnCalzone_Click);
             // 
-            // panel2
+            // btnPizza
             // 
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(255, 188);
-            this.panel2.TabIndex = 5;
+            this.btnPizza.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnPizza.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPizza.FlatAppearance.BorderSize = 0;
+            this.btnPizza.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPizza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPizza.Location = new System.Drawing.Point(0, 40);
+            this.btnPizza.Name = "btnPizza";
+            this.btnPizza.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnPizza.Size = new System.Drawing.Size(210, 40);
+            this.btnPizza.TabIndex = 1;
+            this.btnPizza.Text = "Pizzas";
+            this.btnPizza.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPizza.UseVisualStyleBackColor = false;
+            this.btnPizza.Click += new System.EventHandler(this.btnPizza_Click);
             // 
-            // btnCart
+            // btnBurguer
             // 
-            this.btnCart.BackColor = System.Drawing.Color.Transparent;
-            this.btnCart.FlatAppearance.BorderSize = 0;
-            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCart.Location = new System.Drawing.Point(3, 567);
-            this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(249, 62);
-            this.btnCart.TabIndex = 2;
-            this.btnCart.Text = "Carrito";
-            this.btnCart.UseVisualStyleBackColor = false;
-            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            this.btnBurguer.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnBurguer.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBurguer.FlatAppearance.BorderSize = 0;
+            this.btnBurguer.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBurguer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBurguer.Location = new System.Drawing.Point(0, 0);
+            this.btnBurguer.Name = "btnBurguer";
+            this.btnBurguer.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
+            this.btnBurguer.Size = new System.Drawing.Size(210, 40);
+            this.btnBurguer.TabIndex = 0;
+            this.btnBurguer.Text = "Hamburguesa";
+            this.btnBurguer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBurguer.UseVisualStyleBackColor = false;
+            this.btnBurguer.Click += new System.EventHandler(this.btnBurguer_Click);
+            // 
+            // panelSlideMenu
+            // 
+            this.panelSlideMenu.AutoScroll = true;
+            this.panelSlideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
+            this.panelSlideMenu.Controls.Add(this.btnConfig);
+            this.panelSlideMenu.Controls.Add(this.btnPedido);
+            this.panelSlideMenu.Controls.Add(this.btnCart);
+            this.panelSlideMenu.Controls.Add(this.panelMenu);
+            this.panelSlideMenu.Controls.Add(this.btnMenu);
+            this.panelSlideMenu.Controls.Add(this.panel1);
+            this.panelSlideMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelSlideMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.panelSlideMenu.Name = "panelSlideMenu";
+            this.panelSlideMenu.Size = new System.Drawing.Size(210, 791);
+            this.panelSlideMenu.TabIndex = 0;
             // 
             // btnConfig
             // 
-            this.btnConfig.BackColor = System.Drawing.Color.Transparent;
+            this.btnConfig.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnConfig.FlatAppearance.BorderSize = 0;
+            this.btnConfig.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfig.Location = new System.Drawing.Point(3, 678);
+            this.btnConfig.Image = global::PickAndGo.Properties.Resources.cogwheel__1_;
+            this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfig.Location = new System.Drawing.Point(0, 621);
             this.btnConfig.Name = "btnConfig";
-            this.btnConfig.Size = new System.Drawing.Size(249, 62);
+            this.btnConfig.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnConfig.Size = new System.Drawing.Size(210, 60);
             this.btnConfig.TabIndex = 6;
             this.btnConfig.Text = "Configuración";
-            this.btnConfig.UseVisualStyleBackColor = false;
+            this.btnConfig.UseVisualStyleBackColor = true;
             this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
-            // btnOrder
+            // btnPedido
             // 
-            this.btnOrder.BackColor = System.Drawing.Color.Transparent;
-            this.btnOrder.FlatAppearance.BorderSize = 0;
-            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrder.Location = new System.Drawing.Point(3, 622);
-            this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Size = new System.Drawing.Size(249, 62);
-            this.btnOrder.TabIndex = 7;
-            this.btnOrder.Text = "Pedido";
-            this.btnOrder.UseVisualStyleBackColor = false;
-            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            this.btnPedido.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPedido.FlatAppearance.BorderSize = 0;
+            this.btnPedido.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPedido.Image = global::PickAndGo.Properties.Resources.hoja_de_balance__3_;
+            this.btnPedido.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPedido.Location = new System.Drawing.Point(0, 561);
+            this.btnPedido.Name = "btnPedido";
+            this.btnPedido.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPedido.Size = new System.Drawing.Size(210, 60);
+            this.btnPedido.TabIndex = 5;
+            this.btnPedido.Text = "Pedido";
+            this.btnPedido.UseVisualStyleBackColor = true;
+            this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
+            // 
+            // btnCart
+            // 
+            this.btnCart.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCart.FlatAppearance.BorderSize = 0;
+            this.btnCart.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCart.Image = global::PickAndGo.Properties.Resources.carts__2_;
+            this.btnCart.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCart.Location = new System.Drawing.Point(0, 501);
+            this.btnCart.Name = "btnCart";
+            this.btnCart.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnCart.Size = new System.Drawing.Size(210, 60);
+            this.btnCart.TabIndex = 4;
+            this.btnCart.Text = "Carrito";
+            this.btnCart.UseVisualStyleBackColor = true;
+            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMenu.FlatAppearance.BorderSize = 0;
+            this.btnMenu.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Image = global::PickAndGo.Properties.Resources.menu;
+            this.btnMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMenu.Location = new System.Drawing.Point(0, 157);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnMenu.Size = new System.Drawing.Size(210, 60);
+            this.btnMenu.TabIndex = 2;
+            this.btnMenu.Text = "Menú";
+            this.btnMenu.UseVisualStyleBackColor = true;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(895, 63);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Hola mundo";
             // 
             // Menú
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 739);
-            this.Controls.Add(this.panel1);
-            this.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ClientSize = new System.Drawing.Size(1211, 658);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panelSlideMenu);
+            this.ForeColor = System.Drawing.SystemColors.Control;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menú";
-            this.Padding = new System.Windows.Forms.Padding(30, 92, 30, 31);
+            this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Load += new System.EventHandler(this.Menú_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.panelMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
+            this.panelSlideMenu.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
+      private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.Panel panel1;
-      private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnMenu;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button btnPizza;
-        private System.Windows.Forms.Button btnCalzone;
-        private System.Windows.Forms.Button btnDrink;
+        private System.Windows.Forms.Panel panelMenu;
+        private System.Windows.Forms.Button btnDrinks;
         private System.Windows.Forms.Button btnBreakfast;
         private System.Windows.Forms.Button btnWing;
         private System.Windows.Forms.Button btnPasta;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnCalzone;
+        private System.Windows.Forms.Button btnPizza;
+        private System.Windows.Forms.Button btnBurguer;
+        private System.Windows.Forms.Panel panelSlideMenu;
         private System.Windows.Forms.Button btnConfig;
+        private System.Windows.Forms.Button btnPedido;
         private System.Windows.Forms.Button btnCart;
+        private System.Windows.Forms.Label label1;
     }
 }

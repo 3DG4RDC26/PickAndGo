@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace PickAndGo.Models
 {
-   internal class Reporte
-   {
-      public string Titulo { get; set; }
-      public DateTime FechaGeneracion { get; set; }
-      public string Descripcion { get; set; }
-      public List<Pedido> PedidosIncluidos { get; set; }
-      public int TotalPedidos { get; set; }
-   }
+    internal class Reporte
+    {
+        public string Titulo { get; set; }
+        public DateTime FechaGeneracion { get; set; }
+        public string Descripcion { get; set; }
+        
+        public int TotalPedidos { get; set; }
+    }
 }

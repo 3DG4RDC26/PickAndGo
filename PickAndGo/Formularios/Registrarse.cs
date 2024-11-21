@@ -19,19 +19,27 @@ namespace PickAndGo.Formularios
         }
 
       private void btnRegistrarse_Click(object sender, EventArgs e)
-      {
-         string Nombre = (tbName.Text);
-         int CedulaCif = int.Parse(tbCedula.Text);
-         string Contraseña = (tbPassword.Text);
-         string Telefono = (tbPhoneNumber.Text);
-         
-         MessageBox.Show("Gracias por registrarse");
-         Close();
-      }
-
-        private void Registrarse_Load(object sender, EventArgs e)
         {
+            Cliente cliente = new Cliente
+            {
+                CedulaCif = int.Parse(tbCedulaCif.Text),
+                Nombre = tbName.Text,
+                Contraseña = tbPassword.Text,
+                Telefono = tbPhoneNumber.Text
+            };
 
-        }
-    }
+            AdministrarUsuario clienteManager = new AdministrarUsuario();
+
+            try
+            {
+                clienteManager.RegistrarCliente(cliente);
+                MessageBox.Show("Gracias por registrarse");
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+      }
+   }
 }
