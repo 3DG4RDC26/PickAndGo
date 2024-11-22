@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tbCedulaCif = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -65,7 +65,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.tbCedulaCif);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.btnLogin);
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Location = new System.Drawing.Point(399, 95);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
@@ -93,7 +93,7 @@
             this.linkLabel1.Location = new System.Drawing.Point(255, 180);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(60, 15);
+            this.linkLabel1.Size = new System.Drawing.Size(75, 17);
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Registrarse";
@@ -104,8 +104,7 @@
             this.tbPassword.Location = new System.Drawing.Point(118, 123);
             this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.PasswordChar = '*';
-            this.tbPassword.Size = new System.Drawing.Size(150, 21);
+            this.tbPassword.Size = new System.Drawing.Size(150, 25);
             this.tbPassword.TabIndex = 4;
             // 
             // label2
@@ -115,7 +114,7 @@
             this.label2.Location = new System.Drawing.Point(38, 126);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 15);
+            this.label2.Size = new System.Drawing.Size(75, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "Contraseña";
             // 
@@ -124,7 +123,7 @@
             this.tbCedulaCif.Location = new System.Drawing.Point(118, 84);
             this.tbCedulaCif.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbCedulaCif.Name = "tbCedulaCif";
-            this.tbCedulaCif.Size = new System.Drawing.Size(150, 21);
+            this.tbCedulaCif.Size = new System.Drawing.Size(150, 25);
             this.tbCedulaCif.TabIndex = 2;
             // 
             // label1
@@ -134,20 +133,20 @@
             this.label1.Location = new System.Drawing.Point(38, 87);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.Size = new System.Drawing.Size(71, 17);
             this.label1.TabIndex = 1;
             this.label1.Text = "Cif/Cédula";
             // 
-            // btnLogin
+            // button1
             // 
-            this.btnLogin.Location = new System.Drawing.Point(136, 168);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(111, 27);
-            this.btnLogin.TabIndex = 0;
-            this.btnLogin.Text = "Iniciar Sesión";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            this.button1.Location = new System.Drawing.Point(136, 168);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(111, 27);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Iniciar Sesión";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -164,7 +163,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(835, 520);
             this.Controls.Add(this.panel1);
@@ -193,7 +192,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbCedulaCif;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
     }
