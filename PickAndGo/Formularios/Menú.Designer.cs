@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbLogo = new System.Windows.Forms.PictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btnDrinks = new System.Windows.Forms.Button();
             this.btnBreakfast = new System.Windows.Forms.Button();
@@ -38,15 +39,15 @@
             this.btnPizza = new System.Windows.Forms.Button();
             this.btnBurguer = new System.Windows.Forms.Button();
             this.panelSlideMenu = new System.Windows.Forms.Panel();
-            this.btnSettings = new System.Windows.Forms.Button();
-            this.btnOrder = new System.Windows.Forms.Button();
+            this.btnConfig = new System.Windows.Forms.Button();
+            this.btnPedido = new System.Windows.Forms.Button();
             this.btnCart = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
-            this.pbLogo = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.panelMenu.SuspendLayout();
             this.panelSlideMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -57,6 +58,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 157);
             this.panel1.TabIndex = 1;
+            // 
+            // pbLogo
+            // 
+            this.pbLogo.BackgroundImage = global::PickAndGo.Properties.Resources.proyect;
+            this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pbLogo.Location = new System.Drawing.Point(31, 16);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.pbLogo.Name = "pbLogo";
+            this.pbLogo.Size = new System.Drawing.Size(148, 134);
+            this.pbLogo.TabIndex = 0;
+            this.pbLogo.TabStop = false;
+            this.pbLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panelMenu
             // 
@@ -195,53 +208,53 @@
             // 
             // panelSlideMenu
             // 
+            this.panelSlideMenu.AutoScroll = true;
             this.panelSlideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(9)))), ((int)(((byte)(9)))));
-            this.panelSlideMenu.Controls.Add(this.btnSettings);
-            this.panelSlideMenu.Controls.Add(this.btnOrder);
+            this.panelSlideMenu.Controls.Add(this.btnConfig);
+            this.panelSlideMenu.Controls.Add(this.btnPedido);
             this.panelSlideMenu.Controls.Add(this.btnCart);
             this.panelSlideMenu.Controls.Add(this.panelMenu);
             this.panelSlideMenu.Controls.Add(this.btnMenu);
             this.panelSlideMenu.Controls.Add(this.panel1);
-            this.panelSlideMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelSlideMenu.Location = new System.Drawing.Point(27, 74);
+            this.panelSlideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSlideMenu.Margin = new System.Windows.Forms.Padding(4);
             this.panelSlideMenu.Name = "panelSlideMenu";
-            this.panelSlideMenu.Size = new System.Drawing.Size(210, 705);
+            this.panelSlideMenu.Size = new System.Drawing.Size(210, 791);
             this.panelSlideMenu.TabIndex = 0;
             // 
-            // btnSettings
+            // btnConfig
             // 
-            this.btnSettings.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSettings.FlatAppearance.BorderSize = 0;
-            this.btnSettings.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSettings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSettings.Image = global::PickAndGo.Properties.Resources.cogwheel__1_;
-            this.btnSettings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSettings.Location = new System.Drawing.Point(0, 621);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnSettings.Size = new System.Drawing.Size(210, 60);
-            this.btnSettings.TabIndex = 6;
-            this.btnSettings.Text = "Configuración";
-            this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            this.btnConfig.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnConfig.FlatAppearance.BorderSize = 0;
+            this.btnConfig.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnConfig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfig.Image = global::PickAndGo.Properties.Resources.cogwheel__1_;
+            this.btnConfig.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfig.Location = new System.Drawing.Point(0, 621);
+            this.btnConfig.Name = "btnConfig";
+            this.btnConfig.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnConfig.Size = new System.Drawing.Size(210, 60);
+            this.btnConfig.TabIndex = 6;
+            this.btnConfig.Text = "Configuración";
+            this.btnConfig.UseVisualStyleBackColor = true;
+            this.btnConfig.Click += new System.EventHandler(this.btnConfig_Click);
             // 
-            // btnOrder
+            // btnPedido
             // 
-            this.btnOrder.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOrder.FlatAppearance.BorderSize = 0;
-            this.btnOrder.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnOrder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOrder.Image = global::PickAndGo.Properties.Resources.hoja_de_balance__3_;
-            this.btnOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrder.Location = new System.Drawing.Point(0, 561);
-            this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnOrder.Size = new System.Drawing.Size(210, 60);
-            this.btnOrder.TabIndex = 5;
-            this.btnOrder.Text = "Pedido";
-            this.btnOrder.UseVisualStyleBackColor = true;
-            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            this.btnPedido.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPedido.FlatAppearance.BorderSize = 0;
+            this.btnPedido.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPedido.Image = global::PickAndGo.Properties.Resources.hoja_de_balance__3_;
+            this.btnPedido.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPedido.Location = new System.Drawing.Point(0, 561);
+            this.btnPedido.Name = "btnPedido";
+            this.btnPedido.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnPedido.Size = new System.Drawing.Size(210, 60);
+            this.btnPedido.TabIndex = 5;
+            this.btnPedido.Text = "Pedido";
+            this.btnPedido.UseVisualStyleBackColor = true;
+            this.btnPedido.Click += new System.EventHandler(this.btnPedido_Click);
             // 
             // btnCart
             // 
@@ -277,38 +290,36 @@
             this.btnMenu.UseVisualStyleBackColor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
-            // pbLogo
+            // label1
             // 
-            this.pbLogo.BackgroundImage = global::PickAndGo.Properties.Resources.proyect;
-            this.pbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pbLogo.Location = new System.Drawing.Point(31, 16);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
-            this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(148, 134);
-            this.pbLogo.TabIndex = 0;
-            this.pbLogo.TabStop = false;
-            this.pbLogo.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Blue;
+            this.label1.Location = new System.Drawing.Point(895, 63);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Hola mundo";
             // 
             // Menú
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1297, 804);
+            this.ClientSize = new System.Drawing.Size(1211, 658);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.panelSlideMenu);
             this.ForeColor = System.Drawing.SystemColors.Control;
-            this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Menú";
             this.Padding = new System.Windows.Forms.Padding(27, 74, 27, 25);
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
-            this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.Menú_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelSlideMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -325,8 +336,9 @@
         private System.Windows.Forms.Button btnPizza;
         private System.Windows.Forms.Button btnBurguer;
         private System.Windows.Forms.Panel panelSlideMenu;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Button btnOrder;
+        private System.Windows.Forms.Button btnConfig;
+        private System.Windows.Forms.Button btnPedido;
         private System.Windows.Forms.Button btnCart;
+        private System.Windows.Forms.Label label1;
     }
 }
