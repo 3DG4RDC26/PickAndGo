@@ -12,36 +12,43 @@ using System.Windows.Forms;
 
 namespace PickAndGo
 {
-   public partial class Login : MetroFramework.Forms.MetroForm
-   {
-      public Login()
-      {
-         InitializeComponent();
-      }
+    public partial class Login : MetroFramework.Forms.MetroForm
+    {
+        public Login()
+        {
+            InitializeComponent();
+        }
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                Registrarse formRegistrarse = new Registrarse();
 
-      private void button1_Click(object sender, EventArgs e)
-      {
-         int CedulaCif = int.Parse(tbCedulaCif.Text);
-         int Password = int.Parse(tbPassword.Text);
+                formRegistrarse.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al abrir el formulario de registro: " + ex.Message);
+            }
+        }
 
-         Cliente cliente = new Cliente();
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            int cedula = int.Parse(tbCedulaCif.Text);
+            string contraseña = tbPassword.Text;
 
-         Menú formMenu = new Menú();
-         formMenu.Show();
-      }
+            AdministrarUsuario clienteManager = new AdministrarUsuario();
 
-      private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-      {
-         try
-         {
-            Registrarse formRegistrarse = new Registrarse();
-
-            formRegistrarse.ShowDialog();
-         }
-         catch (Exception ex)
-         {
-            MessageBox.Show("Error al abrir el formulario de registro: " + ex.Message);
-         }
-      }
-   }
+            if (clienteManager.ValidarCliente(cedula, contraseña))
+            {
+                Menú formMenu = new Menú();
+                formMenu.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Cédula/Cif o contraseña incorrecta.");
+            }
+        }
+    }
 }
