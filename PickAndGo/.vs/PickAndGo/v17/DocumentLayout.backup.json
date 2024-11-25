@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\dxand\\OneDrive\\Escritorio\\pickandgo\\PickAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\dxand\\OneDrive\\Escritorio\\pickandgo\\PickAndGo\\formularios\\frmpasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\dxand\\onedrive\\escritorio\\pickandgo\\pickandgo\\formularios\\frmpasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\frmpasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\dxand\\onedrive\\escritorio\\pickandgo\\pickandgo\\formularios\\frmcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\dxand\\OneDrive\\Escritorio\\pickandgo\\PickAndGo\\formularios\\frmcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\frmcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -145,8 +145,7 @@
               "ToolTip": "C:\\Users\\dxand\\OneDrive\\Escritorio\\pickandgo\\PickAndGo\\Formularios\\FrmCart.cs [Design]",
               "RelativeToolTip": "Formularios\\FrmCart.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:32:19.64Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-22T02:32:19.64Z"
             },
             {
               "$type": "Document",
@@ -363,8 +362,7 @@
               "RelativeToolTip": "Formularios\\FrmPasta.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T02:33:28.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T02:33:28.616Z"
             },
             {
               "$type": "Document",
