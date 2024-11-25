@@ -18,7 +18,27 @@ namespace PickAndGo
         {
             InitializeComponent();
         }
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            int cedula = int.Parse(tbCedulaCif.Text);
+            string contraseña = tbPassword.Text;
+
+            RegistrodeUsuario clienteManager = new RegistrodeUsuario();
+
+            if (clienteManager.ValidarCliente(cedula, contraseña))
+            {
+                Menú formMenu = new Menú();
+                formMenu.Show();
+                Hide();
+            }
+            else
+            {
+                MessageBox.Show("Cédula/Cif o contraseña incorrecta.");
+            }
+        }
+
+        private void linkLabelRegister_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
             {
@@ -32,23 +52,10 @@ namespace PickAndGo
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void linkLabelAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            int cedula = int.Parse(tbCedulaCif.Text);
-            string contraseña = tbPassword.Text;
-
-            AdministrarUsuario clienteManager = new AdministrarUsuario();
-
-            if (clienteManager.ValidarCliente(cedula, contraseña))
-            {
-                Menú formMenu = new Menú();
-                formMenu.Show();
-                Hide();
-            }
-            else
-            {
-                MessageBox.Show("Cédula/Cif o contraseña incorrecta.");
-            }
+            FrmLoginAdmin LogAdmin = new FrmLoginAdmin();
+            LogAdmin.ShowDialog();
         }
     }
 }

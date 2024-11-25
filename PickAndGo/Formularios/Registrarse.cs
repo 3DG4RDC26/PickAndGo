@@ -18,7 +18,7 @@ namespace PickAndGo.Formularios
             InitializeComponent();
         }
 
-      private void btnRegistrarse_Click(object sender, EventArgs e)
+        private void btnRegistrarse_Click(object sender, EventArgs e)
         {
             Cliente cliente = new Cliente
             {
@@ -28,7 +28,7 @@ namespace PickAndGo.Formularios
                 Telefono = tbPhoneNumber.Text
             };
 
-            AdministrarUsuario clienteManager = new AdministrarUsuario();
+            RegistrodeUsuario clienteManager = new RegistrodeUsuario();
 
             try
             {
@@ -40,6 +40,6 @@ namespace PickAndGo.Formularios
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
-      }
-   }
+        }
+    }
 }

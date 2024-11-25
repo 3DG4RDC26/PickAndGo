@@ -30,14 +30,15 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.tbCedulaCif = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabelRegister = new System.Windows.Forms.LinkLabel();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.tbCedulaCif = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabelAdmin = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,11 +60,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.linkLabelAdmin);
+            this.panel2.Controls.Add(this.tbCedulaCif);
             this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.linkLabel1);
+            this.panel2.Controls.Add(this.linkLabelRegister);
             this.panel2.Controls.Add(this.tbPassword);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.tbCedulaCif);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnLogin);
             this.panel2.Location = new System.Drawing.Point(399, 95);
@@ -71,6 +73,13 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(335, 225);
             this.panel2.TabIndex = 1;
+            // 
+            // tbCedulaCif
+            // 
+            this.tbCedulaCif.Location = new System.Drawing.Point(118, 87);
+            this.tbCedulaCif.Name = "tbCedulaCif";
+            this.tbCedulaCif.Size = new System.Drawing.Size(150, 21);
+            this.tbCedulaCif.TabIndex = 7;
             // 
             // pictureBox2
             // 
@@ -85,53 +94,45 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // linkLabel1
+            // linkLabelRegister
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Coral;
-            this.linkLabel1.Location = new System.Drawing.Point(255, 180);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(60, 15);
-            this.linkLabel1.TabIndex = 5;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Registrarse";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.linkLabelRegister.AutoSize = true;
+            this.linkLabelRegister.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabelRegister.LinkColor = System.Drawing.Color.Coral;
+            this.linkLabelRegister.Location = new System.Drawing.Point(255, 180);
+            this.linkLabelRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabelRegister.Name = "linkLabelRegister";
+            this.linkLabelRegister.Size = new System.Drawing.Size(60, 15);
+            this.linkLabelRegister.TabIndex = 5;
+            this.linkLabelRegister.TabStop = true;
+            this.linkLabelRegister.Text = "Registrarse";
+            this.linkLabelRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelRegister_LinkClicked);
             // 
             // tbPassword
             // 
             this.tbPassword.Location = new System.Drawing.Point(118, 123);
             this.tbPassword.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tbPassword.Name = "tbPassword";
-            this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(150, 21);
             this.tbPassword.TabIndex = 4;
+            this.tbPassword.UseSystemPasswordChar = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(38, 126);
+            this.label2.Location = new System.Drawing.Point(53, 126);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(61, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Contraseña";
             // 
-            // tbCedulaCif
-            // 
-            this.tbCedulaCif.Location = new System.Drawing.Point(118, 84);
-            this.tbCedulaCif.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.tbCedulaCif.Name = "tbCedulaCif";
-            this.tbCedulaCif.Size = new System.Drawing.Size(150, 21);
-            this.tbCedulaCif.TabIndex = 2;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(38, 87);
+            this.label1.Location = new System.Drawing.Point(53, 90);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 15);
@@ -162,6 +163,21 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabelAdmin
+            // 
+            this.linkLabelAdmin.ActiveLinkColor = System.Drawing.Color.Aqua;
+            this.linkLabelAdmin.AutoSize = true;
+            this.linkLabelAdmin.BackColor = System.Drawing.SystemColors.WindowText;
+            this.linkLabelAdmin.LinkColor = System.Drawing.Color.Coral;
+            this.linkLabelAdmin.Location = new System.Drawing.Point(4, 210);
+            this.linkLabelAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabelAdmin.Name = "linkLabelAdmin";
+            this.linkLabelAdmin.Size = new System.Drawing.Size(65, 15);
+            this.linkLabelAdmin.TabIndex = 8;
+            this.linkLabelAdmin.TabStop = true;
+            this.linkLabelAdmin.Text = "Administrar";
+            this.linkLabelAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelAdmin_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -188,14 +204,15 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabelRegister;
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tbCedulaCif;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox tbCedulaCif;
+        private System.Windows.Forms.LinkLabel linkLabelAdmin;
     }
 }
 
