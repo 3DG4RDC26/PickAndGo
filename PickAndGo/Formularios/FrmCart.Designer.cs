@@ -50,7 +50,7 @@
             this.panel1.Location = new System.Drawing.Point(48, 139);
             this.panel1.Margin = new System.Windows.Forms.Padding(7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2281, 1110);
+            this.panel1.Size = new System.Drawing.Size(2281, 1131);
             this.panel1.TabIndex = 0;
             // 
             // panel3
@@ -79,7 +79,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 796);
+            this.panel2.Location = new System.Drawing.Point(0, 817);
             this.panel2.Margin = new System.Windows.Forms.Padding(7);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(2279, 312);
@@ -124,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2377, 1295);
+            this.ClientSize = new System.Drawing.Size(2377, 1316);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(7);
             this.Name = "FrmCart";
