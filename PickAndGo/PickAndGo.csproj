@@ -154,6 +154,7 @@
     <Compile Include="Models\EstadoDePago.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\PagoCaja.cs" />
+    <Compile Include="Models\RegistrodeUsuario.cs" />
     <Compile Include="Models\Reporte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -273,6 +274,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\carts %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mac&amp;cheese.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaghetti-boloñesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizza hawaina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIZZA Peperoni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzajamon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hot dog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calzone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CROISSANT_POLLO-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2_cee9ea0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BK_Croissandwich_HQJ_500x540.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_detail_croissant_jamonqueso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quesadilla-de-pollo-2-600x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quesadilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sandwichres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandwichpollo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DelvalleNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\o_bg-remover-gen_2pJF3HhfNg4wpsxIvrDDwn0ou7n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JudodelvalleLemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Power azul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coca cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FantaNaranja.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresco-toronja-355ml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FantaRoja355ml.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CanadaDry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macqueso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macandcheese.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamburguesa.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

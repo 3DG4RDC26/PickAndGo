@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +18,28 @@ namespace PickAndGo.Formularios
             InitializeComponent();
         }
 
-      private void btnRegistrarse_Click(object sender, EventArgs e)
-      {
-         MessageBox.Show("Gracias por registrarse");
-         Close();
-      }
-   }
+        private void btnRegistrarse_Click(object sender, EventArgs e)
+        {
+            Cliente cliente = new Cliente
+            {
+                CedulaCif = int.Parse(tbCedulaCif.Text),
+                Nombre = tbName.Text,
+                Contraseña = tbPassword.Text,
+                Telefono = tbPhoneNumber.Text
+            };
+
+            RegistrodeUsuario clienteManager = new RegistrodeUsuario();
+
+            try
+            {
+                clienteManager.RegistrarCliente(cliente);
+                MessageBox.Show("Gracias por registrarse");
+                Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+        }
+    }
 }
