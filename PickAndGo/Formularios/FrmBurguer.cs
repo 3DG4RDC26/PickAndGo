@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.FormulariosMenú;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,36 @@ namespace PickAndGo.Formularios
         private void guna2CirclePictureBox11_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnHambChipotle_Click(object sender, EventArgs e)
+        {
+            FrmHambChipotle chipotle = new FrmHambChipotle();
+            chipotle.ShowDialog();
+        }
+
+        private void btnHambClasic_Click(object sender, EventArgs e)
+        {
+            FrmHambClasica clasica = new FrmHambClasica();
+            clasica.ShowDialog();
+        }
+
+        private void btnHambDobleCheese_Click(object sender, EventArgs e)
+        {
+            FrmHambDouble doubleCheese = new FrmHambDouble();
+            doubleCheese.ShowDialog();
+        }
+
+        private void btnHambBBQ_Click(object sender, EventArgs e)
+        {
+            FrmHambBBQ bBQ = new FrmHambBBQ();
+            bBQ.ShowDialog();
+        }
+
+        private void btnHambPepenillo_Click(object sender, EventArgs e)
+        {
+            FrmHambPepinillos pepinillos = new FrmHambPepinillos();
+            pepinillos.ShowDialog();
         }
     }
 }

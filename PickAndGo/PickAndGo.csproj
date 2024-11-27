@@ -142,6 +142,18 @@
     <Compile Include="FormulariosMenú\FrmHambClasica.Designer.cs">
       <DependentUpon>FrmHambClasica.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormulariosMenú\FrmHambDouble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambDouble.Designer.cs">
+      <DependentUpon>FrmHambDouble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambPepinillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambPepinillos.Designer.cs">
+      <DependentUpon>FrmHambPepinillos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormulariosMenú\FrmHotBolognesa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -195,6 +207,12 @@
     </Compile>
     <Compile Include="FormulariosMenú\FrmSPollo.Designer.cs">
       <DependentUpon>FrmSPollo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambBBQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambBBQ.Designer.cs">
+      <DependentUpon>FrmHambBBQ.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmBreakfast.cs">
       <SubType>Form</SubType>

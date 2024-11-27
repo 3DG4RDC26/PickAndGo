@@ -44,7 +44,7 @@
             // 
             // guna2CirclePictureBox11
             // 
-            this.guna2CirclePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox11.Image")));
+            //this.guna2CirclePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox11.Image")));
             this.guna2CirclePictureBox11.ImageRotate = 0F;
             this.guna2CirclePictureBox11.Location = new System.Drawing.Point(45, 38);
             this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(2);

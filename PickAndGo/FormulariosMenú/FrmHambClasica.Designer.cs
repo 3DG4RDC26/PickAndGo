@@ -117,7 +117,7 @@
             // 
             // guna2CirclePictureBox11
             // 
-            this.guna2CirclePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox11.Image")));
+            //this.guna2CirclePictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox11.Image")));
             this.guna2CirclePictureBox11.ImageRotate = 0F;
             this.guna2CirclePictureBox11.Location = new System.Drawing.Point(70, 55);
             this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
