@@ -281,7 +281,7 @@ namespace PickAndGo.DataSet {
             
             private global::System.Data.DataColumn columnNombre;
             
-            private global::System.Data.DataColumn columnCédulaCif;
+            private global::System.Data.DataColumn columnCedulaCif;
             
             private global::System.Data.DataColumn columnTelefono;
             
@@ -328,9 +328,9 @@ namespace PickAndGo.DataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn CédulaCifColumn {
+            public global::System.Data.DataColumn CedulaCifColumn {
                 get {
-                    return this.columnCédulaCif;
+                    return this.columnCedulaCif;
                 }
             }
             
@@ -379,11 +379,11 @@ namespace PickAndGo.DataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public ClienteDTRow AddClienteDTRow(string Nombre, int CédulaCif, string Telefono) {
+            public ClienteDTRow AddClienteDTRow(string Nombre, int CedulaCif, string Telefono) {
                 ClienteDTRow rowClienteDTRow = ((ClienteDTRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         Nombre,
-                        CédulaCif,
+                        CedulaCif,
                         Telefono};
                 rowClienteDTRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowClienteDTRow);
@@ -408,7 +408,7 @@ namespace PickAndGo.DataSet {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             internal void InitVars() {
                 this.columnNombre = base.Columns["Nombre"];
-                this.columnCédulaCif = base.Columns["CédulaCif"];
+                this.columnCedulaCif = base.Columns["CedulaCif"];
                 this.columnTelefono = base.Columns["Telefono"];
             }
             
@@ -417,8 +417,8 @@ namespace PickAndGo.DataSet {
             private void InitClass() {
                 this.columnNombre = new global::System.Data.DataColumn("Nombre", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNombre);
-                this.columnCédulaCif = new global::System.Data.DataColumn("CédulaCif", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnCédulaCif);
+                this.columnCedulaCif = new global::System.Data.DataColumn("CedulaCif", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCedulaCif);
                 this.columnTelefono = new global::System.Data.DataColumn("Telefono", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTelefono);
             }
@@ -579,17 +579,17 @@ namespace PickAndGo.DataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public int CédulaCif {
+            public int CedulaCif {
                 get {
                     try {
-                        return ((int)(this[this.tableClienteDT.CédulaCifColumn]));
+                        return ((int)(this[this.tableClienteDT.CedulaCifColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'CédulaCif\' de la tabla \'ClienteDT\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'CedulaCif\' de la tabla \'ClienteDT\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableClienteDT.CédulaCifColumn] = value;
+                    this[this.tableClienteDT.CedulaCifColumn] = value;
                 }
             }
             
@@ -623,14 +623,14 @@ namespace PickAndGo.DataSet {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsCédulaCifNull() {
-                return this.IsNull(this.tableClienteDT.CédulaCifColumn);
+            public bool IsCedulaCifNull() {
+                return this.IsNull(this.tableClienteDT.CedulaCifColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetCédulaCifNull() {
-                this[this.tableClienteDT.CédulaCifColumn] = global::System.Convert.DBNull;
+            public void SetCedulaCifNull() {
+                this[this.tableClienteDT.CedulaCifColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

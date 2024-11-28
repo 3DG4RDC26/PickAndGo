@@ -14,9 +14,11 @@ namespace PickAndGo.Formularios
 {
     public partial class FrmCRUD : MetroFramework.Forms.MetroForm
     {
+        private Cliente cliente;
         public FrmCRUD()
         {
             InitializeComponent();
+            cliente = new Cliente();
         }
 
         private void FrmCRUD_Load(object sender, EventArgs e)
@@ -36,14 +38,14 @@ namespace PickAndGo.Formularios
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-           /* ReportDataSource dataSourse = new ReportDataSource("Datos", ClienteDT);
+           ReportDataSource dataSourse = new ReportDataSource("DsDatos", cliente);
 
             FrmReportes frmReportes = new FrmReportes();
             frmReportes.reportViewer1.LocalReport.DataSources.Clear();
             frmReportes.reportViewer1.LocalReport.DataSources.Add(dataSourse);
-            frmReportes.reportViewer1.LocalReport.ReportEmbeddedResource = "Registro.Reportes.RptCliente.rdlc";
+            frmReportes.reportViewer1.LocalReport.ReportEmbeddedResource = "PickAndGo.Reportes.RptCliente.rdlc";
             frmReportes.reportViewer1.RefreshReport();
-            frmReportes.ShowDialog();*/
+            frmReportes.ShowDialog();
         }
     }
 }
