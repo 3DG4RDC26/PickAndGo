@@ -49,6 +49,24 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
@@ -65,6 +83,137 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet\DsCliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmAlfredo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmAlfredo.Designer.cs">
+      <DependentUpon>FrmAlfredo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmAlitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmAlitas.Designer.cs">
+      <DependentUpon>FrmAlitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmBolognesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmBolognesa.Designer.cs">
+      <DependentUpon>FrmBolognesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneBolognesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneBolognesa.Designer.cs">
+      <DependentUpon>FrmCalzoneBolognesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneCombo.Designer.cs">
+      <DependentUpon>FrmCalzoneCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneSupremo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCalzoneSupremo.Designer.cs">
+      <DependentUpon>FrmCalzoneSupremo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCheeseSticks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCheeseSticks.Designer.cs">
+      <DependentUpon>FrmCheeseSticks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambChipotle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambChipotle.Designer.cs">
+      <DependentUpon>FrmHambChipotle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambClasica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambClasica.Designer.cs">
+      <DependentUpon>FrmHambClasica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambDouble.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambDouble.Designer.cs">
+      <DependentUpon>FrmHambDouble.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambPepinillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambPepinillos.Designer.cs">
+      <DependentUpon>FrmHambPepinillos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotBolognesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotBolognesa.Designer.cs">
+      <DependentUpon>FrmHotBolognesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotClasico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotClasico.Designer.cs">
+      <DependentUpon>FrmHotClasico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotPepinillos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHotPepinillos.Designer.cs">
+      <DependentUpon>FrmHotPepinillos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmMacarrones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmMacarrones.Designer.cs">
+      <DependentUpon>FrmMacarrones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaHawaii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaHawaii.Designer.cs">
+      <DependentUpon>FrmPizzaHawaii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaJamon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaJamon.Designer.cs">
+      <DependentUpon>FrmPizzaJamon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaPeppe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPizzaPeppe.Designer.cs">
+      <DependentUpon>FrmPizzaPeppe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmQuesadilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmQuesadilla.Designer.cs">
+      <DependentUpon>FrmQuesadilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSPollo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSPollo.Designer.cs">
+      <DependentUpon>FrmSPollo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambBBQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmHambBBQ.Designer.cs">
+      <DependentUpon>FrmHambBBQ.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmBreakfast.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +268,12 @@
     <Compile Include="Formularios\FrmPizza.Designer.cs">
       <DependentUpon>FrmPizza.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FrmSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +285,12 @@
     </Compile>
     <Compile Include="Formularios\FrmWings.Designer.cs">
       <DependentUpon>FrmWings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmLoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmLoginAdmin.Designer.cs">
+      <DependentUpon>FrmLoginAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\Menú.cs">
       <SubType>Form</SubType>
@@ -155,9 +316,72 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\PagoCaja.cs" />
     <Compile Include="Models\RegistrodeUsuario.cs" />
-    <Compile Include="Models\Reporte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="FormulariosMenú\FrmAlfredo.resx">
+      <DependentUpon>FrmAlfredo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmAlitas.resx">
+      <DependentUpon>FrmAlitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmBolognesa.resx">
+      <DependentUpon>FrmBolognesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCalzoneBolognesa.resx">
+      <DependentUpon>FrmCalzoneBolognesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCalzoneCombo.resx">
+      <DependentUpon>FrmCalzoneCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCalzoneSupremo.resx">
+      <DependentUpon>FrmCalzoneSupremo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCheeseSticks.resx">
+      <DependentUpon>FrmCheeseSticks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHambBBQ.resx">
+      <DependentUpon>FrmHambBBQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHambChipotle.resx">
+      <DependentUpon>FrmHambChipotle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHambClasica.resx">
+      <DependentUpon>FrmHambClasica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHambDouble.resx">
+      <DependentUpon>FrmHambDouble.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHambPepinillos.resx">
+      <DependentUpon>FrmHambPepinillos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHotBolognesa.resx">
+      <DependentUpon>FrmHotBolognesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHotClasico.resx">
+      <DependentUpon>FrmHotClasico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmHotPepinillos.resx">
+      <DependentUpon>FrmHotPepinillos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmMacarrones.resx">
+      <DependentUpon>FrmMacarrones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmPizzaHawaii.resx">
+      <DependentUpon>FrmPizzaHawaii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmPizzaJamon.resx">
+      <DependentUpon>FrmPizzaJamon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmPizzaPeppe.resx">
+      <DependentUpon>FrmPizzaPeppe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmQuesadilla.resx">
+      <DependentUpon>FrmQuesadilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmSPollo.resx">
+      <DependentUpon>FrmSPollo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmBreakfast.resx">
       <DependentUpon>FrmBreakfast.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,11 +409,17 @@
     <EmbeddedResource Include="Formularios\FrmPizza.resx">
       <DependentUpon>FrmPizza.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmWings.resx">
       <DependentUpon>FrmWings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmLoginAdmin.resx">
+      <DependentUpon>FrmLoginAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Menú.resx">
       <DependentUpon>Menú.cs</DependentUpon>
@@ -210,6 +440,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reportes\RptCliente.rdlc" />
+    <None Include="DataSet\DsCliente.xsc">
+      <DependentUpon>DsCliente.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DsCliente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsCliente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DsCliente.xss">
+      <DependentUpon>DsCliente.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -276,94 +518,22 @@
     <None Include="Resources\carts %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mac&amp;cheese.png" />
+    <Folder Include="Dao\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\spaghetti-boloñesa.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizza hawaina.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PIZZA Peperoni.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pizzajamon.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hot dog.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\wings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\calzone.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CROISSANT_POLLO-1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\2_cee9ea0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BK_Croissandwich_HQJ_500x540.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\product_detail_croissant_jamonqueso.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\quesadilla-de-pollo-2-600x400.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\quesadilla.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sandwichres.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sandwichpollo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DelvalleNaranja.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\o_bg-remover-gen_2pJF3HhfNg4wpsxIvrDDwn0ou7n.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\JudodelvalleLemon.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\power rojo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Power azul.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Coca cola.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FantaNaranja.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\refresco-toronja-355ml.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FantaRoja355ml.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CanadaDry.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\sprite.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\macqueso.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\macandcheese.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Hamburguesa.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

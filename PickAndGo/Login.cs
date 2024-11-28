@@ -51,5 +51,11 @@ namespace PickAndGo
                 MessageBox.Show("Error al abrir el formulario de registro: " + ex.Message);
             }
         }
+
+        private void linkLabelAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmLoginAdmin LogAdmin = new FrmLoginAdmin();
+            LogAdmin.ShowDialog();
+        }
     }
 }

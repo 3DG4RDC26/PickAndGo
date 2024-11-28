@@ -118,109 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BK_Croissandwich_HQJ_500x540" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BK_Croissandwich_HQJ_500x540.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calzone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calzone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CanadaDry" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CanadaDry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="carts__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\carts (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Coca_cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Coca cola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cogwheel__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cogwheel (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CROISSANT_POLLO_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CROISSANT_POLLO-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="DelvalleNaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DelvalleNaranja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FantaNaranja" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FantaNaranja.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FantaRoja355ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FantaRoja355ml.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hamburguesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hamburguesa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="hoja_de_balance__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hoja-de-balance (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hot_dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hot dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="JudodelvalleLemon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JudodelvalleLemon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="login__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\login (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="macandcheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macandcheese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mac_cheese" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mac&amp;cheese.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="o_bg_remover_gen_2pJF3HhfNg4wpsxIvrDDwn0ou7n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\o_bg-remover-gen_2pJF3HhfNg4wpsxIvrDDwn0ou7n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pizzajamon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizzajamon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pizza_hawaina" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pizza hawaina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PIZZA_Peperoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PIZZA Peperoni.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Power_azul" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Power azul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="power_rojo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\power rojo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="product_detail_croissant_jamonqueso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\product_detail_croissant_jamonqueso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="proyect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\proyect.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="quesadilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quesadilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="quesadilla_de_pollo_2_600x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\quesadilla-de-pollo-2-600x400.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="refresco_toronja_355ml" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresco-toronja-355ml.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sandwichpollo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sandwichpollo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sandwichres" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sandwichres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="SLIDE_JUST_EAT_6533_copia_1080x675" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SLIDE-JUST-EAT-6533-copia-1080x675.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="spaghetti_boloñesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spaghetti-boloñesa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sprite" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sprite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

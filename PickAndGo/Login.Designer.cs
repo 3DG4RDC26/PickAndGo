@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.linkLabelAdmin = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,6 +60,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.Controls.Add(this.linkLabelAdmin);
             this.panel2.Controls.Add(this.tbCedulaCif);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.linkLabelRegister);
@@ -161,6 +163,21 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // linkLabelAdmin
+            // 
+            this.linkLabelAdmin.ActiveLinkColor = System.Drawing.Color.Aqua;
+            this.linkLabelAdmin.AutoSize = true;
+            this.linkLabelAdmin.BackColor = System.Drawing.SystemColors.WindowText;
+            this.linkLabelAdmin.LinkColor = System.Drawing.Color.Coral;
+            this.linkLabelAdmin.Location = new System.Drawing.Point(4, 210);
+            this.linkLabelAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabelAdmin.Name = "linkLabelAdmin";
+            this.linkLabelAdmin.Size = new System.Drawing.Size(65, 15);
+            this.linkLabelAdmin.TabIndex = 8;
+            this.linkLabelAdmin.TabStop = true;
+            this.linkLabelAdmin.Text = "Administrar";
+            this.linkLabelAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelAdmin_LinkClicked);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -195,6 +212,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox tbCedulaCif;
+        private System.Windows.Forms.LinkLabel linkLabelAdmin;
     }
 }
 
