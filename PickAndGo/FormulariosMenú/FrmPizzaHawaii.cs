@@ -16,5 +16,10 @@ namespace PickAndGo.FormulariosMenú
         {
             InitializeComponent();
         }
+
+        private void FrmPizzaHawaii_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

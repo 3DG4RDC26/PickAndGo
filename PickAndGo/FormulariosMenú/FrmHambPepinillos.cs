@@ -16,5 +16,15 @@ namespace PickAndGo.FormulariosMenú
         {
             InitializeComponent();
         }
+
+        private void FrmHambPepinillos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

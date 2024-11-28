@@ -16,5 +16,10 @@ namespace PickAndGo.FormulariosMenú
         {
             InitializeComponent();
         }
+
+        private void FrmSPollo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

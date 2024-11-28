@@ -16,5 +16,10 @@ namespace PickAndGo.FormulariosMenú
         {
             InitializeComponent();
         }
+
+        private void guna2CirclePictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

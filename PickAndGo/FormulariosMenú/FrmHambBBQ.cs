@@ -16,5 +16,20 @@ namespace PickAndGo.FormulariosMenú
         {
             InitializeComponent();
         }
+
+        private void FrmHambBBQ_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

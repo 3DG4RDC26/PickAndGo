@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalzoneBolognesa));
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -37,18 +38,20 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2CirclePictureBox9
             // 
             this.guna2CirclePictureBox9.ImageRotate = 0F;
-            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(484, 63);
-            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.guna2CirclePictureBox9.Location = new System.Drawing.Point(158, 67);
+            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
             this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(437, 342);
+            this.guna2CirclePictureBox9.Size = new System.Drawing.Size(138, 109);
             this.guna2CirclePictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox9.TabIndex = 66;
             this.guna2CirclePictureBox9.TabStop = false;
@@ -57,10 +60,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(60, 1153);
-            this.label5.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label5.Location = new System.Drawing.Point(20, 312);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 45);
+            this.label5.Size = new System.Drawing.Size(41, 13);
             this.label5.TabIndex = 64;
             this.label5.Text = "C$ 200";
             // 
@@ -68,21 +70,19 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(70, 1076);
-            this.label4.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label4.Location = new System.Drawing.Point(20, 280);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 45);
+            this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 63;
             this.label4.Text = "Precio";
             // 
             // textbox1
             // 
             this.textbox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textbox1.Location = new System.Drawing.Point(57, 783);
-            this.textbox1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.textbox1.Location = new System.Drawing.Point(12, 385);
             this.textbox1.Multiline = true;
             this.textbox1.Name = "textbox1";
-            this.textbox1.Size = new System.Drawing.Size(989, 246);
+            this.textbox1.Size = new System.Drawing.Size(482, 89);
             this.textbox1.TabIndex = 62;
             this.textbox1.Text = "Añade una descripción...";
             // 
@@ -90,20 +90,18 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(48, 706);
-            this.label3.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label3.Location = new System.Drawing.Point(19, 355);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(193, 45);
+            this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 61;
             this.label3.Text = "Personalizar";
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(48, 532);
-            this.label2.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label2.Location = new System.Drawing.Point(20, 232);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1501, 174);
+            this.label2.Size = new System.Drawing.Size(474, 61);
             this.label2.TabIndex = 60;
             this.label2.Text = "Relleno irresistible de carne molida al estilo boloñesa, cocinada con una rica sa" +
     "lsa de tomate, hierbas italianas y especias";
@@ -112,37 +110,48 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(472, 447);
-            this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.label1.Location = new System.Drawing.Point(140, 178);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(557, 65);
+            this.label1.Size = new System.Drawing.Size(183, 21);
             this.label1.TabIndex = 59;
             this.label1.Text = "Calzone carne bolognesa";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(79, 34);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(30, 57);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1235, 404);
+            this.pictureBox1.Size = new System.Drawing.Size(390, 142);
             this.pictureBox1.TabIndex = 58;
             this.pictureBox1.TabStop = false;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(-2, 1230);
-            this.button2.Margin = new System.Windows.Forms.Padding(8, 9, 8, 9);
+            this.button2.Location = new System.Drawing.Point(-1, 489);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(1567, 85);
+            this.button2.Size = new System.Drawing.Size(495, 30);
             this.button2.TabIndex = 67;
             this.button2.Text = "Agregar al carrito";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(167, 62);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(138, 120);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 68;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
             // FrmCalzoneBolognesa
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1561, 1499);
+            this.ClientSize = new System.Drawing.Size(513, 554);
+            this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.guna2CirclePictureBox9);
             this.Controls.Add(this.label5);
@@ -152,12 +161,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
             this.Name = "FrmCalzoneBolognesa";
-            this.Padding = new System.Windows.Forms.Padding(63, 171, 63, 57);
-            this.Text = "CalzoneBolognesa";
+            this.Text = "Calzone bolognesa";
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -174,5 +182,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
     }
 }
