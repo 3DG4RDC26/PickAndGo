@@ -83,6 +83,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dao\ClientesDao.cs" />
     <Compile Include="DataSet\DsCliente.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -315,7 +316,6 @@
     <Compile Include="Models\EstadoDePago.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\PagoCaja.cs" />
-    <Compile Include="Models\RegistrodeUsuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
@@ -517,9 +517,7 @@
   <ItemGroup>
     <None Include="Resources\carts %282%29.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Dao\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">

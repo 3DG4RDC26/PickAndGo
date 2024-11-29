@@ -1,4 +1,5 @@
-﻿using PickAndGo.Models;
+﻿using PickAndGo.Dao;
+using PickAndGo.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,11 +29,11 @@ namespace PickAndGo.Formularios
                 Telefono = tbPhoneNumber.Text
             };
 
-            RegistrodeUsuario clienteManager = new RegistrodeUsuario();
+            ClientesDao clienteManager = new ClientesDao();
 
             try
             {
-                clienteManager.RegistrarCliente(cliente);
+                clienteManager.RegistrarClientes(cliente);
                 MessageBox.Show("Gracias por registrarse");
                 Close();
             }

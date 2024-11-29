@@ -1,4 +1,5 @@
 ﻿using Microsoft.Reporting.WinForms;
+using PickAndGo.Dao;
 using PickAndGo.Models;
 using System;
 using System.Collections.Generic;
@@ -14,11 +15,11 @@ namespace PickAndGo.Formularios
 {
     public partial class FrmCRUD : MetroFramework.Forms.MetroForm
     {
-        private Cliente cliente;
+        private ClientesDao cliente;
         public FrmCRUD()
         {
             InitializeComponent();
-            cliente = new Cliente();
+            cliente = new ClientesDao();
         }
 
         private void FrmCRUD_Load(object sender, EventArgs e)

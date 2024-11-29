@@ -1,4 +1,5 @@
-﻿using PickAndGo.Formularios;
+﻿using PickAndGo.Dao;
+using PickAndGo.Formularios;
 using PickAndGo.Models;
 using System;
 using System.Collections.Generic;
@@ -21,12 +22,12 @@ namespace PickAndGo
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            int cedula = int.Parse(tbCedulaCif.Text);
+            int cedulacif = int.Parse(tbCedulaCif.Text);
             string contraseña = tbPassword.Text;
 
-            RegistrodeUsuario clienteManager = new RegistrodeUsuario();
+            ClientesDao clienteManager = new ClientesDao();
 
-            if (clienteManager.ValidarCliente(cedula, contraseña))
+            if (clienteManager.ValidarCliente(cedulacif, contraseña))
             {
                 Menú formMenu = new Menú();
                 formMenu.Show();
@@ -55,7 +56,7 @@ namespace PickAndGo
         private void linkLabelAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FrmLoginAdmin LogAdmin = new FrmLoginAdmin();
-            LogAdmin.ShowDialog();
+            LogAdmin.Show();
         }
     }
 }

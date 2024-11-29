@@ -25,7 +25,7 @@ namespace PickAndGo.Formularios
             if (cedulaCif == "Admin" && password == "2602")
             {
                 FrmCRUD formCRUD = new FrmCRUD();
-                formCRUD.ShowDialog();
+                formCRUD.Show();
             }
             else
             {

@@ -1,98 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\",
+  "WorkspaceRootPath": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmalfredo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmalfredo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\registrarse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmalitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmalitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\formularios\\frmcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\frmcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmbolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmbolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmcalzonebolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmcalzonebolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\formulariosmen\u00FA\\frmcalzonecombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmcalzonecombo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmcalzonesupremo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmcalzonesupremo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmcheesesticks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmcheesesticks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhambbbq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhambbbq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhambchipotle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhambchipotle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhambclasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhambclasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhambdouble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhambdouble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhambpepinillos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhambpepinillos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhotbolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhotbolognesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhotclasico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhotclasico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmhotpepinillos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmhotpepinillos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmmacarrones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmmacarrones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formularios\\frmpasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\frmpasta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmpizzahawaii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmpizzahawaii.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmpizzajamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmpizzajamon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmpizzapeppe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmpizzapeppe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmquesadilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmquesadilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formulariosmen\u00FA\\frmspollo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formulariosmen\u00FA\\frmspollo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|c:\\users\\home\\onedrive\\escritorio\\eas\\pickandgo\\pickandgo\\formularios\\frmbreakfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:formularios\\frmbreakfast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\dao\\clientesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAE6D288-E93B-4ABE-8774-E8527661A1D4}|PickAndGo.csproj|solutionrelative:dao\\clientesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,308 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmCalzoneCombo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneCombo.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmCalzoneCombo.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneCombo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmCalzoneCombo.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "Registrarse.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Formularios\\Registrarse.cs",
+              "RelativeDocumentMoniker": "Formularios\\Registrarse.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Formularios\\Registrarse.cs",
+              "RelativeToolTip": "Formularios\\Registrarse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T03:13:44.425Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-29T03:39:08.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmAlitas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmAlitas.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmAlitas.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmAlitas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmAlitas.cs [Dise\u00F1o]",
+              "Title": "FrmCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Formularios\\FrmCRUD.cs",
+              "RelativeDocumentMoniker": "Formularios\\FrmCRUD.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Formularios\\FrmCRUD.cs",
+              "RelativeToolTip": "Formularios\\FrmCRUD.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:24:09.66Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-11-29T03:12:02.275Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmBolognesa.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmBolognesa.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmBolognesa.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmBolognesa.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmBolognesa.cs [Dise\u00F1o]",
+              "Title": "ClientesDao.cs",
+              "DocumentMoniker": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Dao\\ClientesDao.cs",
+              "RelativeDocumentMoniker": "Dao\\ClientesDao.cs",
+              "ToolTip": "C:\\Users\\edgar\\OneDrive\\Documentos\\C#\\PickAndGo\\RamaDaniel\\PickAndGo\\Dao\\ClientesDao.cs",
+              "RelativeToolTip": "Dao\\ClientesDao.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:24:06.844Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmCalzoneBolognesa.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneBolognesa.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmCalzoneBolognesa.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneBolognesa.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmCalzoneBolognesa.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:24:05.758Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmCalzoneSupremo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneSupremo.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmCalzoneSupremo.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCalzoneSupremo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmCalzoneSupremo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:23:08.277Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmCheeseSticks.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCheeseSticks.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmCheeseSticks.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmCheeseSticks.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmCheeseSticks.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:23:07.464Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmHambBBQ.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambBBQ.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHambBBQ.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambBBQ.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHambBBQ.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:23:05.036Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FrmHambChipotle.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambChipotle.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHambChipotle.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambChipotle.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHambChipotle.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:23:04.06Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FrmHambClasica.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambClasica.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHambClasica.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambClasica.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHambClasica.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:23:03.16Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FrmHambDouble.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambDouble.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHambDouble.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambDouble.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHambDouble.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:22:59.547Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FrmHambPepinillos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambPepinillos.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHambPepinillos.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHambPepinillos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHambPepinillos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:22:58.435Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FrmHotBolognesa.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotBolognesa.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHotBolognesa.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotBolognesa.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHotBolognesa.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:22:57.332Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FrmHotClasico.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotClasico.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHotClasico.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotClasico.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHotClasico.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:22:56.21Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FrmHotPepinillos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotPepinillos.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmHotPepinillos.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmHotPepinillos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmHotPepinillos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:22:54.767Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FrmMacarrones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmMacarrones.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmMacarrones.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmMacarrones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmMacarrones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:42.068Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FrmPizzaHawaii.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaHawaii.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmPizzaHawaii.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaHawaii.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmPizzaHawaii.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:40.226Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FrmPizzaJamon.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaJamon.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmPizzaJamon.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaJamon.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmPizzaJamon.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:39.077Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FrmPizzaPeppe.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaPeppe.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmPizzaPeppe.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmPizzaPeppe.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmPizzaPeppe.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:37.624Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FrmQuesadilla.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmQuesadilla.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmQuesadilla.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmQuesadilla.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmQuesadilla.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:35.888Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FrmSPollo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmSPollo.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmSPollo.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmSPollo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmSPollo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:19:34.071Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FrmPasta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\Formularios\\FrmPasta.cs",
-              "RelativeDocumentMoniker": "Formularios\\FrmPasta.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\Formularios\\FrmPasta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Formularios\\FrmPasta.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:37:24.189Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmAlfredo.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmAlfredo.cs",
-              "RelativeDocumentMoniker": "FormulariosMen\u00FA\\FrmAlfredo.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\FormulariosMen\u00FA\\FrmAlfredo.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormulariosMen\u00FA\\FrmAlfredo.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:36:43.299Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FrmBreakfast.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\Formularios\\FrmBreakfast.cs",
-              "RelativeDocumentMoniker": "Formularios\\FrmBreakfast.cs",
-              "ToolTip": "C:\\Users\\Home\\OneDrive\\Escritorio\\eas\\PickAndGo\\PickAndGo\\Formularios\\FrmBreakfast.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Formularios\\FrmBreakfast.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T14:22:35.906Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "WhenOpened": "2024-11-29T03:10:43.553Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PickAndGo.Models
 {
-    internal class Cliente
+    public class Cliente
     {
         public int CedulaCif { get; set; }
         public string Nombre { get; set; }
