@@ -400,6 +400,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Carrito.cs" />
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Comida.cs" />
     <Compile Include="Models\EstadoDePago.cs" />
