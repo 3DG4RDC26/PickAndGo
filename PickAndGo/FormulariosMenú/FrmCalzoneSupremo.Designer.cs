@@ -107,7 +107,7 @@
             // 
             this.guna2CirclePictureBox9.ImageRotate = 0F;
             this.guna2CirclePictureBox9.Location = new System.Drawing.Point(155, 64);
-            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox9.Name = "guna2CirclePictureBox9";
             this.guna2CirclePictureBox9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox9.Size = new System.Drawing.Size(138, 108);
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 544);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.guna2CirclePictureBox9);

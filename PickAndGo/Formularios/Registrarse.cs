@@ -22,7 +22,7 @@ namespace PickAndGo.Formularios
         {
             Cliente cliente = new Cliente
             {
-                CedulaCif = int.Parse(tbCedulaCif.Text),
+                CedulaCif = int.Parse(tbCif.Text),
                 Nombre = tbName.Text,
                 Contraseña = tbPassword.Text,
                 Telefono = tbPhoneNumber.Text
@@ -40,6 +40,37 @@ namespace PickAndGo.Formularios
             {
                 MessageBox.Show($"Error: {ex.Message}");
             }
+        }
+
+        private void tbCif_TextChanged(object sender, EventArgs e)
+        {
+            TextBox txt = sender as TextBox;
+
+            
+            if (txt.Text.Length > 8)
+            {
+                txt.Text = txt.Text.Substring(0, 8);
+                txt.SelectionStart = 8; 
+
+            }
+        }
+
+        private void tbPassword_TextChanged(object sender, EventArgs e)
+        {
+            TextBox txt = sender as TextBox;
+
+            
+            if (txt.Text.Length > 6)
+            {
+                txt.Text = txt.Text.Substring(0, 6);
+                txt.SelectionStart = txt.Text.Length; 
+            }
+        }
+
+        private void tbPhoneNumber_TextChanged(object sender, EventArgs e)
+        {
+
+
         }
     }
 }

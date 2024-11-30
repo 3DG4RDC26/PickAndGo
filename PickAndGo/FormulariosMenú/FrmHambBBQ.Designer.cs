@@ -85,9 +85,9 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.label2.Location = new System.Drawing.Point(7, 215);
+            this.label2.Location = new System.Drawing.Point(7, 224);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(474, 35);
+            this.label2.Size = new System.Drawing.Size(474, 26);
             this.label2.TabIndex = 31;
             this.label2.Text = "Una deliciosa hamburgesa con pan artesanal y salsa BBQ, carne y bacon, queso ched" +
     "dar, cebolla, pepiilos, y lechuga.";
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(536, 548);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);

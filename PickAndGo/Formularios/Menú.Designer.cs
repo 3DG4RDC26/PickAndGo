@@ -235,7 +235,7 @@
             this.panelSlideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSlideMenu.Location = new System.Drawing.Point(20, 60);
             this.panelSlideMenu.Name = "panelSlideMenu";
-            this.panelSlideMenu.Size = new System.Drawing.Size(158, 215);
+            this.panelSlideMenu.Size = new System.Drawing.Size(158, 425);
             this.panelSlideMenu.TabIndex = 0;
             this.panelSlideMenu.UseWaitCursor = true;
             // 
@@ -319,7 +319,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(867, 295);
+            this.ClientSize = new System.Drawing.Size(867, 505);
             this.Controls.Add(this.panelSlideMenu);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.IsMdiContainer = true;

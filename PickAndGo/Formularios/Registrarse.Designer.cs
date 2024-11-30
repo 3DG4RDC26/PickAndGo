@@ -35,7 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.tbCedulaCif = new System.Windows.Forms.TextBox();
+            this.tbCif = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbPhoneNumber = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -78,11 +78,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 234);
+            this.label2.Location = new System.Drawing.Point(10, 237);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 15);
+            this.label2.Size = new System.Drawing.Size(66, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Cedula/Cif:";
+            this.label2.Text = "Numeo cif:";
             // 
             // label3
             // 
@@ -111,12 +111,13 @@
             this.tbName.Size = new System.Drawing.Size(175, 20);
             this.tbName.TabIndex = 8;
             // 
-            // tbCedulaCif
+            // tbCif
             // 
-            this.tbCedulaCif.Location = new System.Drawing.Point(89, 232);
-            this.tbCedulaCif.Name = "tbCedulaCif";
-            this.tbCedulaCif.Size = new System.Drawing.Size(175, 20);
-            this.tbCedulaCif.TabIndex = 9;
+            this.tbCif.Location = new System.Drawing.Point(89, 232);
+            this.tbCif.Name = "tbCif";
+            this.tbCif.Size = new System.Drawing.Size(175, 20);
+            this.tbCif.TabIndex = 9;
+            this.tbCif.TextChanged += new System.EventHandler(this.tbCif_TextChanged);
             // 
             // tbPassword
             // 
@@ -124,6 +125,7 @@
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(175, 20);
             this.tbPassword.TabIndex = 12;
+            this.tbPassword.TextChanged += new System.EventHandler(this.tbPassword_TextChanged);
             // 
             // tbPhoneNumber
             // 
@@ -131,6 +133,7 @@
             this.tbPhoneNumber.Name = "tbPhoneNumber";
             this.tbPhoneNumber.Size = new System.Drawing.Size(175, 20);
             this.tbPhoneNumber.TabIndex = 10;
+            this.tbPhoneNumber.TextChanged += new System.EventHandler(this.tbPhoneNumber_TextChanged);
             // 
             // panel1
             // 
@@ -148,7 +151,7 @@
             this.ClientSize = new System.Drawing.Size(293, 400);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbPhoneNumber);
-            this.Controls.Add(this.tbCedulaCif);
+            this.Controls.Add(this.tbCif);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -177,7 +180,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbName;
-        private System.Windows.Forms.TextBox tbCedulaCif;
+        private System.Windows.Forms.TextBox tbCif;
         private System.Windows.Forms.TextBox tbPassword;
       private System.Windows.Forms.TextBox tbPhoneNumber;
       private System.Windows.Forms.Panel panel1;

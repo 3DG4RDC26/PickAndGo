@@ -53,6 +53,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnWings1 = new System.Windows.Forms.Button();
+            this.btnWings2 = new System.Windows.Forms.Button();
+            this.btnWings3 = new System.Windows.Forms.Button();
+            this.btnWings4 = new System.Windows.Forms.Button();
             this.guna2ShadowPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
@@ -339,11 +343,59 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
+            // btnWings1
+            // 
+            this.btnWings1.BackColor = System.Drawing.Color.Bisque;
+            this.btnWings1.Image = ((System.Drawing.Image)(resources.GetObject("btnWings1.Image")));
+            this.btnWings1.Location = new System.Drawing.Point(20, 207);
+            this.btnWings1.Name = "btnWings1";
+            this.btnWings1.Size = new System.Drawing.Size(150, 38);
+            this.btnWings1.TabIndex = 13;
+            this.btnWings1.UseVisualStyleBackColor = false;
+            this.btnWings1.Click += new System.EventHandler(this.btnWings1_Click);
+            // 
+            // btnWings2
+            // 
+            this.btnWings2.BackColor = System.Drawing.Color.Bisque;
+            this.btnWings2.Image = ((System.Drawing.Image)(resources.GetObject("btnWings2.Image")));
+            this.btnWings2.Location = new System.Drawing.Point(205, 207);
+            this.btnWings2.Name = "btnWings2";
+            this.btnWings2.Size = new System.Drawing.Size(150, 38);
+            this.btnWings2.TabIndex = 14;
+            this.btnWings2.UseVisualStyleBackColor = false;
+            this.btnWings2.Click += new System.EventHandler(this.btnWings2_Click);
+            // 
+            // btnWings3
+            // 
+            this.btnWings3.BackColor = System.Drawing.Color.Bisque;
+            this.btnWings3.Image = ((System.Drawing.Image)(resources.GetObject("btnWings3.Image")));
+            this.btnWings3.Location = new System.Drawing.Point(397, 207);
+            this.btnWings3.Name = "btnWings3";
+            this.btnWings3.Size = new System.Drawing.Size(150, 38);
+            this.btnWings3.TabIndex = 15;
+            this.btnWings3.UseVisualStyleBackColor = false;
+            this.btnWings3.Click += new System.EventHandler(this.btnWings3_Click);
+            // 
+            // btnWings4
+            // 
+            this.btnWings4.BackColor = System.Drawing.Color.Bisque;
+            this.btnWings4.Image = ((System.Drawing.Image)(resources.GetObject("btnWings4.Image")));
+            this.btnWings4.Location = new System.Drawing.Point(585, 207);
+            this.btnWings4.Name = "btnWings4";
+            this.btnWings4.Size = new System.Drawing.Size(150, 38);
+            this.btnWings4.TabIndex = 16;
+            this.btnWings4.UseVisualStyleBackColor = false;
+            this.btnWings4.Click += new System.EventHandler(this.btnWings4_Click);
+            // 
             // FrmWings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(776, 277);
+            this.ClientSize = new System.Drawing.Size(1300, 603);
+            this.Controls.Add(this.btnWings4);
+            this.Controls.Add(this.btnWings3);
+            this.Controls.Add(this.btnWings2);
+            this.Controls.Add(this.btnWings1);
             this.Controls.Add(this.guna2ShadowPanel4);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2ShadowPanel2);
@@ -398,5 +450,9 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private System.Windows.Forms.Button btnWings1;
+        private System.Windows.Forms.Button btnWings2;
+        private System.Windows.Forms.Button btnWings3;
+        private System.Windows.Forms.Button btnWings4;
     }
 }

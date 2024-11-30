@@ -124,11 +124,71 @@
     <Compile Include="FormulariosMenú\FrmCalzoneSupremo.Designer.cs">
       <DependentUpon>FrmCalzoneSupremo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormulariosMenú\FrmCanadaDry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCanadaDry.Designer.cs">
+      <DependentUpon>FrmCanadaDry.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormulariosMenú\FrmCheeseSticks.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormulariosMenú\FrmCheeseSticks.Designer.cs">
       <DependentUpon>FrmCheeseSticks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCocaCola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCocaCola.Designer.cs">
+      <DependentUpon>FrmCocaCola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroiHuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroiHuevo.Designer.cs">
+      <DependentUpon>FrmCroiHuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroJamonYQueso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroJamonYQueso.Designer.cs">
+      <DependentUpon>FrmCroJamonYQueso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroPolllo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmCroPolllo.Designer.cs">
+      <DependentUpon>FrmCroPolllo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmDelValleLimon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmDelValleLimon.Designer.cs">
+      <DependentUpon>FrmDelValleLimon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmDelValleNaranja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmDelValleNaranja.Designer.cs">
+      <DependentUpon>FrmDelValleNaranja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFantaNaranja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFantaNaranja.Designer.cs">
+      <DependentUpon>FrmFantaNaranja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFantaRoja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFantaRoja.Designer.cs">
+      <DependentUpon>FrmFantaRoja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFresca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmFresca.Designer.cs">
+      <DependentUpon>FrmFresca.cs</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMenú\FrmHambChipotle.cs">
       <SubType>Form</SubType>
@@ -196,11 +256,35 @@
     <Compile Include="FormulariosMenú\FrmPizzaPeppe.Designer.cs">
       <DependentUpon>FrmPizzaPeppe.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormulariosMenú\FrmPowerAdeAzul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPowerAdeAzul.Designer.cs">
+      <DependentUpon>FrmPowerAdeAzul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPowerAdeRojo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmPowerAdeRojo.Designer.cs">
+      <DependentUpon>FrmPowerAdeRojo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmQuesaDesayuno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmQuesaDesayuno.Designer.cs">
+      <DependentUpon>FrmQuesaDesayuno.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormulariosMenú\FrmQuesadilla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormulariosMenú\FrmQuesadilla.Designer.cs">
       <DependentUpon>FrmQuesadilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSandwichPollo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSandwichPollo.Designer.cs">
+      <DependentUpon>FrmSandwichPollo.cs</DependentUpon>
     </Compile>
     <Compile Include="FormulariosMenú\FrmSPollo.cs">
       <SubType>Form</SubType>
@@ -213,6 +297,12 @@
     </Compile>
     <Compile Include="FormulariosMenú\FrmHambBBQ.Designer.cs">
       <DependentUpon>FrmHambBBQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSprite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariosMenú\FrmSprite.Designer.cs">
+      <DependentUpon>FrmSprite.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FrmBreakfast.cs">
       <SubType>Form</SubType>
@@ -337,8 +427,38 @@
     <EmbeddedResource Include="FormulariosMenú\FrmCalzoneSupremo.resx">
       <DependentUpon>FrmCalzoneSupremo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCanadaDry.resx">
+      <DependentUpon>FrmCanadaDry.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormulariosMenú\FrmCheeseSticks.resx">
       <DependentUpon>FrmCheeseSticks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCocaCola.resx">
+      <DependentUpon>FrmCocaCola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCroiHuevo.resx">
+      <DependentUpon>FrmCroiHuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCroJamonYQueso.resx">
+      <DependentUpon>FrmCroJamonYQueso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmCroPolllo.resx">
+      <DependentUpon>FrmCroPolllo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmDelValleLimon.resx">
+      <DependentUpon>FrmDelValleLimon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmDelValleNaranja.resx">
+      <DependentUpon>FrmDelValleNaranja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmFantaNaranja.resx">
+      <DependentUpon>FrmFantaNaranja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmFantaRoja.resx">
+      <DependentUpon>FrmFantaRoja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmFresca.resx">
+      <DependentUpon>FrmFresca.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormulariosMenú\FrmHambBBQ.resx">
       <DependentUpon>FrmHambBBQ.cs</DependentUpon>
@@ -376,11 +496,26 @@
     <EmbeddedResource Include="FormulariosMenú\FrmPizzaPeppe.resx">
       <DependentUpon>FrmPizzaPeppe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmPowerAdeAzul.resx">
+      <DependentUpon>FrmPowerAdeAzul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmPowerAdeRojo.resx">
+      <DependentUpon>FrmPowerAdeRojo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmQuesaDesayuno.resx">
+      <DependentUpon>FrmQuesaDesayuno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormulariosMenú\FrmQuesadilla.resx">
       <DependentUpon>FrmQuesadilla.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmSandwichPollo.resx">
+      <DependentUpon>FrmSandwichPollo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormulariosMenú\FrmSPollo.resx">
       <DependentUpon>FrmSPollo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariosMenú\FrmSprite.resx">
+      <DependentUpon>FrmSprite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FrmBreakfast.resx">
       <DependentUpon>FrmBreakfast.cs</DependentUpon>

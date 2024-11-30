@@ -39,7 +39,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button2 = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
@@ -66,7 +65,7 @@
             // 
             // txtDescripcion5
             // 
-            this.txtDescripcion5.Location = new System.Drawing.Point(12, 363);
+            this.txtDescripcion5.Location = new System.Drawing.Point(13, 374);
             this.txtDescripcion5.Multiline = true;
             this.txtDescripcion5.Name = "txtDescripcion5";
             this.txtDescripcion5.Size = new System.Drawing.Size(482, 89);
@@ -87,9 +86,9 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F);
-            this.label2.Location = new System.Drawing.Point(9, 214);
+            this.label2.Location = new System.Drawing.Point(10, 214);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(474, 93);
+            this.label2.Size = new System.Drawing.Size(474, 133);
             this.label2.TabIndex = 40;
             this.label2.Text = "Hamburgesa de la casa, con salsa picante, y extra de pepinillos, acompañada de ca" +
     "rne con picante, cebolla y lechuga";
@@ -108,7 +107,7 @@
             // 
             this.guna2CirclePictureBox11.ImageRotate = 0F;
             this.guna2CirclePictureBox11.Location = new System.Drawing.Point(165, 66);
-            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
             this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox11.Size = new System.Drawing.Size(174, 108);
@@ -126,7 +125,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(-1, 504);
+            this.button2.Location = new System.Drawing.Point(12, 486);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(495, 30);
             this.button2.TabIndex = 83;
@@ -146,21 +145,11 @@
             this.guna2CirclePictureBox6.TabIndex = 84;
             this.guna2CirclePictureBox6.TabStop = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 458);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(495, 30);
-            this.button1.TabIndex = 85;
-            this.button1.Text = "Agregar al carrito";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // FrmHambPepinillos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 499);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);
@@ -194,6 +183,5 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
-        private System.Windows.Forms.Button button1;
     }
 }

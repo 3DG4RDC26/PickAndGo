@@ -79,7 +79,7 @@
             // textbox1
             // 
             this.textbox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textbox1.Location = new System.Drawing.Point(12, 385);
+            this.textbox1.Location = new System.Drawing.Point(13, 389);
             this.textbox1.Multiline = true;
             this.textbox1.Name = "textbox1";
             this.textbox1.Size = new System.Drawing.Size(482, 89);
@@ -90,7 +90,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 355);
+            this.label3.Location = new System.Drawing.Point(10, 354);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(69, 13);
             this.label3.TabIndex = 61;
@@ -126,7 +126,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(-1, 489);
+            this.button2.Location = new System.Drawing.Point(12, 495);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(495, 30);
             this.button2.TabIndex = 67;
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(513, 554);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.guna2CirclePictureBox9);

@@ -67,7 +67,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 381);
+            this.label3.Location = new System.Drawing.Point(11, 374);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 13);
             this.label3.TabIndex = 34;
@@ -75,7 +75,7 @@
             // 
             // textbox1
             // 
-            this.textbox1.Location = new System.Drawing.Point(14, 408);
+            this.textbox1.Location = new System.Drawing.Point(13, 399);
             this.textbox1.Multiline = true;
             this.textbox1.Name = "textbox1";
             this.textbox1.Size = new System.Drawing.Size(482, 84);
@@ -104,7 +104,7 @@
             // 
             this.guna2CirclePictureBox1.ImageRotate = 0F;
             this.guna2CirclePictureBox1.Location = new System.Drawing.Point(176, 75);
-            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(138, 107);
@@ -122,7 +122,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1, 498);
+            this.button2.Location = new System.Drawing.Point(9, 498);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(495, 30);
             this.button2.TabIndex = 89;
@@ -146,7 +146,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(532, 534);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label5);

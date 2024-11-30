@@ -133,7 +133,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(2, 499);
+            this.button2.Location = new System.Drawing.Point(12, 499);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(495, 30);
             this.button2.TabIndex = 76;
@@ -159,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1060, 540);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.guna2CirclePictureBox9);

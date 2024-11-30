@@ -15,6 +15,7 @@ namespace PickAndGo.FormulariosMenú
         public FrmAlitas()
         {
             InitializeComponent();
+          
         }
 
         private void FrmAlitas_Load(object sender, EventArgs e)

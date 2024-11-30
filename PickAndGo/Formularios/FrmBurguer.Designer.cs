@@ -67,6 +67,7 @@
             this.btnHambDobleCheese = new System.Windows.Forms.Button();
             this.btnHambBBQ = new System.Windows.Forms.Button();
             this.btnHambPepenillo = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -473,59 +474,73 @@
             // 
             // btnHambClasic
             // 
+            this.btnHambClasic.BackColor = System.Drawing.Color.Bisque;
+            this.btnHambClasic.Image = ((System.Drawing.Image)(resources.GetObject("btnHambClasic.Image")));
             this.btnHambClasic.Location = new System.Drawing.Point(18, 198);
             this.btnHambClasic.Name = "btnHambClasic";
             this.btnHambClasic.Size = new System.Drawing.Size(152, 34);
             this.btnHambClasic.TabIndex = 5;
-            this.btnHambClasic.Text = "Hamburguesa clásica";
-            this.btnHambClasic.UseVisualStyleBackColor = true;
+            this.btnHambClasic.UseVisualStyleBackColor = false;
             this.btnHambClasic.Click += new System.EventHandler(this.btnHambClasic_Click);
             // 
             // btnHambChipotle
             // 
+            this.btnHambChipotle.BackColor = System.Drawing.Color.Bisque;
+            this.btnHambChipotle.Image = ((System.Drawing.Image)(resources.GetObject("btnHambChipotle.Image")));
             this.btnHambChipotle.Location = new System.Drawing.Point(206, 198);
             this.btnHambChipotle.Name = "btnHambChipotle";
             this.btnHambChipotle.Size = new System.Drawing.Size(152, 34);
             this.btnHambChipotle.TabIndex = 6;
-            this.btnHambChipotle.Text = "Hamburguesa chipotle";
-            this.btnHambChipotle.UseVisualStyleBackColor = true;
+            this.btnHambChipotle.UseVisualStyleBackColor = false;
             this.btnHambChipotle.Click += new System.EventHandler(this.btnHambChipotle_Click);
             // 
             // btnHambDobleCheese
             // 
+            this.btnHambDobleCheese.BackColor = System.Drawing.Color.Bisque;
+            this.btnHambDobleCheese.Image = ((System.Drawing.Image)(resources.GetObject("btnHambDobleCheese.Image")));
             this.btnHambDobleCheese.Location = new System.Drawing.Point(395, 198);
             this.btnHambDobleCheese.Name = "btnHambDobleCheese";
             this.btnHambDobleCheese.Size = new System.Drawing.Size(152, 34);
             this.btnHambDobleCheese.TabIndex = 7;
-            this.btnHambDobleCheese.Text = "Doble queso burguesa";
-            this.btnHambDobleCheese.UseVisualStyleBackColor = true;
+            this.btnHambDobleCheese.UseVisualStyleBackColor = false;
             this.btnHambDobleCheese.Click += new System.EventHandler(this.btnHambDobleCheese_Click);
             // 
             // btnHambBBQ
             // 
+            this.btnHambBBQ.BackColor = System.Drawing.Color.Bisque;
+            this.btnHambBBQ.Image = ((System.Drawing.Image)(resources.GetObject("btnHambBBQ.Image")));
             this.btnHambBBQ.Location = new System.Drawing.Point(583, 198);
             this.btnHambBBQ.Name = "btnHambBBQ";
             this.btnHambBBQ.Size = new System.Drawing.Size(152, 34);
             this.btnHambBBQ.TabIndex = 8;
-            this.btnHambBBQ.Text = "Oasis BBQ";
-            this.btnHambBBQ.UseVisualStyleBackColor = true;
+            this.btnHambBBQ.UseVisualStyleBackColor = false;
             this.btnHambBBQ.Click += new System.EventHandler(this.btnHambBBQ_Click);
             // 
             // btnHambPepenillo
             // 
+            this.btnHambPepenillo.BackColor = System.Drawing.Color.Bisque;
+            this.btnHambPepenillo.Image = ((System.Drawing.Image)(resources.GetObject("btnHambPepenillo.Image")));
             this.btnHambPepenillo.Location = new System.Drawing.Point(18, 424);
             this.btnHambPepenillo.Name = "btnHambPepenillo";
             this.btnHambPepenillo.Size = new System.Drawing.Size(152, 34);
             this.btnHambPepenillo.TabIndex = 9;
-            this.btnHambPepenillo.Text = "Oasis Pepinillo";
-            this.btnHambPepenillo.UseVisualStyleBackColor = true;
+            this.btnHambPepenillo.UseVisualStyleBackColor = false;
             this.btnHambPepenillo.Click += new System.EventHandler(this.btnHambPepenillo_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.Location = new System.Drawing.Point(764, 21);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(518, 539);
+            this.panel5.TabIndex = 10;
             // 
             // FrmBurguer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(804, 544);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1300, 603);
+            this.Controls.Add(this.panel5);
             this.Controls.Add(this.btnHambPepenillo);
             this.Controls.Add(this.btnHambBBQ);
             this.Controls.Add(this.btnHambDobleCheese);
@@ -610,5 +625,6 @@
         private System.Windows.Forms.Button btnHambDobleCheese;
         private System.Windows.Forms.Button btnHambBBQ;
         private System.Windows.Forms.Button btnHambPepenillo;
+        private System.Windows.Forms.Panel panel5;
     }
 }

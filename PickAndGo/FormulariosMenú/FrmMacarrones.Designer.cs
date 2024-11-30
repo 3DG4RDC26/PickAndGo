@@ -46,7 +46,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 524);
+            this.button1.Location = new System.Drawing.Point(7, 498);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(495, 30);
             this.button1.TabIndex = 95;
@@ -88,7 +88,7 @@
             // textbox1
             // 
             this.textbox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textbox1.Location = new System.Drawing.Point(10, 411);
+            this.textbox1.Location = new System.Drawing.Point(16, 393);
             this.textbox1.Multiline = true;
             this.textbox1.Name = "textbox1";
             this.textbox1.Size = new System.Drawing.Size(482, 89);
@@ -99,7 +99,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 382);
+            this.label8.Location = new System.Drawing.Point(15, 368);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(69, 13);
             this.label8.TabIndex = 90;
@@ -151,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1205, 512);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2CirclePictureBox9);
@@ -162,9 +162,9 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMacarrones";
-            this.Padding = new System.Windows.Forms.Padding(13, 39, 13, 13);
+            this.Padding = new System.Windows.Forms.Padding(13, 60, 13, 13);
             this.Text = "Macarrones en salsa de quesa cheddar";
             this.Load += new System.EventHandler(this.FrmMacarrones_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();

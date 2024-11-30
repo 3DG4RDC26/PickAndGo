@@ -48,7 +48,7 @@
             // 
             this.guna2CirclePictureBox11.ImageRotate = 0F;
             this.guna2CirclePictureBox11.Location = new System.Drawing.Point(117, 73);
-            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CirclePictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CirclePictureBox11.Name = "guna2CirclePictureBox11";
             this.guna2CirclePictureBox11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox11.Size = new System.Drawing.Size(181, 120);
@@ -79,9 +79,9 @@
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
-            this.label2.Location = new System.Drawing.Point(10, 229);
+            this.label2.Location = new System.Drawing.Point(23, 229);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(474, 67);
+            this.label2.Size = new System.Drawing.Size(474, 60);
             this.label2.TabIndex = 24;
             this.label2.Text = "Hamburgesa con pan artesanal y una deliciosa salsa chipotle hecha por la casa, ac" +
     "ompañada de carne, queso cheddar, lechuga, cebolla y pepinillo";
@@ -148,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 546);
+            this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.guna2CirclePictureBox5);
             this.Controls.Add(this.label5);
