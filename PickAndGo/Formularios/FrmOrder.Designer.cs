@@ -30,16 +30,18 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panelFactura = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtNombreCliente = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.cmbProducto = new System.Windows.Forms.ComboBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.lblTotalPagar1 = new System.Windows.Forms.Label();
-            this.lblTotalPagar = new System.Windows.Forms.Label();
             this.lblCodigo1 = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
             this.lblCantidad = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
             this.lblProducto = new System.Windows.Forms.Label();
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,11 +49,9 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblTotalPagar1 = new System.Windows.Forms.Label();
+            this.lblTotalPagar = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txtNombreCliente = new System.Windows.Forms.TextBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
-            this.txtCantidad = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panelFactura.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.SuspendLayout();
@@ -59,7 +59,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(286, 58);
+            this.label1.Location = new System.Drawing.Point(66, 69);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(123, 13);
             this.label1.TabIndex = 0;
@@ -81,11 +81,49 @@
             this.panelFactura.Controls.Add(this.lblNombre);
             this.panelFactura.Controls.Add(this.lblProducto);
             this.panelFactura.Controls.Add(this.dgvProductos);
-            this.panelFactura.Location = new System.Drawing.Point(289, 94);
+            this.panelFactura.Location = new System.Drawing.Point(65, 94);
             this.panelFactura.Name = "panelFactura";
-            this.panelFactura.Size = new System.Drawing.Size(567, 590);
+            this.panelFactura.Size = new System.Drawing.Size(584, 413);
             this.panelFactura.TabIndex = 1;
             this.panelFactura.Paint += new System.Windows.Forms.PaintEventHandler(this.panelFactura_Paint);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(353, 26);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
+            // txtCantidad
+            // 
+            this.txtCantidad.Location = new System.Drawing.Point(133, 127);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(100, 20);
+            this.txtCantidad.TabIndex = 23;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Location = new System.Drawing.Point(133, 97);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
+            this.txtPrecio.TabIndex = 22;
+            // 
+            // txtNombreCliente
+            // 
+            this.txtNombreCliente.Location = new System.Drawing.Point(133, 63);
+            this.txtNombreCliente.Name = "txtNombreCliente";
+            this.txtNombreCliente.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreCliente.TabIndex = 21;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(353, 66);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(155, 51);
+            this.btnAgregar.TabIndex = 15;
+            this.btnAgregar.Text = "AGREGAR";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // txtCodigo
             // 
@@ -114,36 +152,6 @@
             this.cmbProducto.TabIndex = 18;
             this.cmbProducto.SelectedIndexChanged += new System.EventHandler(this.cmbName_SelectedIndexChanged);
             // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(353, 66);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(155, 51);
-            this.btnAgregar.TabIndex = 15;
-            this.btnAgregar.Text = "AGREGAR";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // lblTotalPagar1
-            // 
-            this.lblTotalPagar1.AutoSize = true;
-            this.lblTotalPagar1.Location = new System.Drawing.Point(-128, 164);
-            this.lblTotalPagar1.Name = "lblTotalPagar1";
-            this.lblTotalPagar1.Size = new System.Drawing.Size(10, 13);
-            this.lblTotalPagar1.TabIndex = 10;
-            this.lblTotalPagar1.Text = "-";
-            // 
-            // lblTotalPagar
-            // 
-            this.lblTotalPagar.AutoSize = true;
-            this.lblTotalPagar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPagar.Location = new System.Drawing.Point(-154, 131);
-            this.lblTotalPagar.Name = "lblTotalPagar";
-            this.lblTotalPagar.Size = new System.Drawing.Size(91, 13);
-            this.lblTotalPagar.TabIndex = 9;
-            this.lblTotalPagar.Text = "TOTAL A PAGAR";
-            this.lblTotalPagar.Click += new System.EventHandler(this.label10_Click);
-            // 
             // lblCodigo1
             // 
             this.lblCodigo1.AutoSize = true;
@@ -152,6 +160,16 @@
             this.lblCodigo1.Size = new System.Drawing.Size(10, 13);
             this.lblCodigo1.TabIndex = 6;
             this.lblCodigo1.Text = "-";
+            // 
+            // lblCodigo
+            // 
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCodigo.Location = new System.Drawing.Point(75, 164);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(49, 13);
+            this.lblCodigo.TabIndex = 2;
+            this.lblCodigo.Text = "CODIGO";
             // 
             // lblCantidad
             // 
@@ -182,16 +200,6 @@
             this.lblNombre.Size = new System.Drawing.Size(124, 13);
             this.lblNombre.TabIndex = 3;
             this.lblNombre.Text = "NOMBRE DEL CLIENTE";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(75, 164);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(49, 13);
-            this.lblCodigo.TabIndex = 2;
-            this.lblCodigo.Text = "CODIGO";
             // 
             // lblProducto
             // 
@@ -251,6 +259,26 @@
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
+            // lblTotalPagar1
+            // 
+            this.lblTotalPagar1.AutoSize = true;
+            this.lblTotalPagar1.Location = new System.Drawing.Point(-128, 164);
+            this.lblTotalPagar1.Name = "lblTotalPagar1";
+            this.lblTotalPagar1.Size = new System.Drawing.Size(10, 13);
+            this.lblTotalPagar1.TabIndex = 10;
+            this.lblTotalPagar1.Text = "-";
+            // 
+            // lblTotalPagar
+            // 
+            this.lblTotalPagar.AutoSize = true;
+            this.lblTotalPagar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPagar.Location = new System.Drawing.Point(-154, 131);
+            this.lblTotalPagar.Name = "lblTotalPagar";
+            this.lblTotalPagar.Size = new System.Drawing.Size(91, 13);
+            this.lblTotalPagar.TabIndex = 9;
+            this.lblTotalPagar.Text = "TOTAL A PAGAR";
+            this.lblTotalPagar.Click += new System.EventHandler(this.label10_Click);
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -260,40 +288,12 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "FACTURA PICK AND GO";
             // 
-            // txtNombreCliente
-            // 
-            this.txtNombreCliente.Location = new System.Drawing.Point(133, 63);
-            this.txtNombreCliente.Name = "txtNombreCliente";
-            this.txtNombreCliente.Size = new System.Drawing.Size(100, 20);
-            this.txtNombreCliente.TabIndex = 21;
-            // 
-            // txtPrecio
-            // 
-            this.txtPrecio.Location = new System.Drawing.Point(133, 97);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 20);
-            this.txtPrecio.TabIndex = 22;
-            // 
-            // txtCantidad
-            // 
-            this.txtCantidad.Location = new System.Drawing.Point(133, 127);
-            this.txtCantidad.Name = "txtCantidad";
-            this.txtCantidad.Size = new System.Drawing.Size(100, 20);
-            this.txtCantidad.TabIndex = 23;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(353, 26);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 24;
-            // 
             // FrmOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(996, 617);
+            this.ClientSize = new System.Drawing.Size(804, 484);
             this.Controls.Add(this.panelFactura);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label15);
