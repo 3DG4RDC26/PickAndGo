@@ -15,6 +15,10 @@ namespace PickAndGo.Formularios
     {
         private Carrito carrito;
 
+        public FrmOrder()
+        {
+        }
+
         public FrmOrder(Carrito carrito)
         {
             InitializeComponent();
@@ -30,12 +34,6 @@ namespace PickAndGo.Formularios
 
         }
 
-        private void CargarFactura()
-        {
-          
-
-
-
-        }
+       
     }
 }

@@ -16,8 +16,13 @@ namespace PickAndGo.Models
                 Productos = new List<Comida>();
             }
 
-           
-            public void AgregarComida(Comida comida)
+        public void Limpiar()
+        {
+            Productos.Clear(); 
+        }
+
+
+        public void AgregarComida(Comida comida)
             {
                 Productos.Add(comida);
             }

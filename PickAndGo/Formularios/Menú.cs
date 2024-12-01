@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,7 @@ namespace PickAndGo.Formularios
         public Menú()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
             customizeDesign();
         }
         private void customizeDesign()
@@ -74,7 +76,7 @@ namespace PickAndGo.Formularios
         {
             if (burguer == null)
             {
-                burguer = new FrmBurguer();
+                burguer = new FrmBurguer();  // Usa la variable de clase burguer, no una local
                 burguer.FormClosed += Burguer_FormClosed;
                 burguer.MdiParent = this;
                 burguer.Dock = DockStyle.Fill;
@@ -85,7 +87,7 @@ namespace PickAndGo.Formularios
                 burguer.Activate();
             }
 
-            
+
         }
 
         private void Burguer_FormClosed(object sender, FormClosedEventArgs e)
