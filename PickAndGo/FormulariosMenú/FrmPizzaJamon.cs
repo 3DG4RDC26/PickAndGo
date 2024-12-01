@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PickAndGo.Formularios;
+using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,6 +27,17 @@ namespace PickAndGo.FormulariosMenú
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnJamon_Click(object sender, EventArgs e)
+        {
+            Comida comidaSeleccionada = new Comida(1, "Pizza Jamon", 180.00);
+            FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
+            if (frmCart != null)
+            {
+                frmCart.AgregarAlCarrito(comidaSeleccionada);
+            }
+            this.Close();
         }
     }
 }

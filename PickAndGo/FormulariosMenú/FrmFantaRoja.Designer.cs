@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFantaRoja));
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnFR = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,14 +44,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnFR
             // 
-            this.button1.Location = new System.Drawing.Point(12, 499);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(495, 30);
-            this.button1.TabIndex = 104;
-            this.button1.Text = "Agregar al carrito";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFR.BackColor = System.Drawing.Color.SandyBrown;
+            this.btnFR.Location = new System.Drawing.Point(12, 499);
+            this.btnFR.Name = "btnFR";
+            this.btnFR.Size = new System.Drawing.Size(495, 30);
+            this.btnFR.TabIndex = 104;
+            this.btnFR.Text = "Agregar al carrito";
+            this.btnFR.UseVisualStyleBackColor = false;
+            this.btnFR.Click += new System.EventHandler(this.btnFR_Click);
             // 
             // guna2CirclePictureBox9
             // 
@@ -153,7 +155,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox6);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFR);
             this.Controls.Add(this.guna2CirclePictureBox9);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -173,7 +175,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnFR;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;

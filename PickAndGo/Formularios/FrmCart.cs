@@ -14,6 +14,7 @@ namespace PickAndGo.Formularios
 {
     public partial class FrmCart : MetroFramework.Forms.MetroForm
     {
+
         private Carrito carrito;
         public FrmCart()
         {
@@ -26,7 +27,7 @@ namespace PickAndGo.Formularios
 
         private void FrmCart_Load(object sender, EventArgs e)
         {
-
+            MostrarTotal();
         }
         private void ConfigurarDataGridView()
         {
@@ -57,18 +58,31 @@ namespace PickAndGo.Formularios
             int filaIndex = dgvCarrito.Rows.Add();
             dgvCarrito.Rows[filaIndex].Cells["Nombre"].Value = comida.Nombre;
             dgvCarrito.Rows[filaIndex].Cells["Precio"].Value = comida.Precio.ToString("C", CultureInfo.GetCultureInfo("es-NI"));
-            dgvCarrito.Rows[filaIndex].Cells["Cantidad"].Value = 1; 
+            dgvCarrito.Rows[filaIndex].Cells["Cantidad"].Value = 1;
+
+            MostrarTotal();
         }
 
         private void MostrarTotal()
         {
             double total = carrito.ObtenerTotal();
-            lblTotal.Text = $"Total: {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
+            lblTotal2.Text = $"Total: {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
         }
 
         private void dgvCarrito_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void lblTotal2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnProcesoPago_Click(object sender, EventArgs e)
+        {
+            FrmPago frmPagar = new FrmPago(carrito);  
+            frmPagar.ShowDialog();
         }
     }
 }

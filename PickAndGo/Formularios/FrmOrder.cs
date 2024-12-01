@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +13,28 @@ namespace PickAndGo.Formularios
 {
     public partial class FrmOrder : MetroFramework.Forms.MetroForm
     {
-        public FrmOrder()
+        private Carrito carrito;
+
+        public FrmOrder(Carrito carrito)
         {
             InitializeComponent();
-            this.ControlBox = false;
+            this.carrito = carrito;
+
+            this.WindowState = FormWindowState.Maximized;
             this.FormBorderStyle = FormBorderStyle.None;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void FrmOrder_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void CargarFactura()
+        {
+          
+
+
 
         }
     }

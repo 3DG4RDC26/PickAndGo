@@ -37,7 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnPpeper = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -120,14 +120,16 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // btnPpeper
             // 
-            this.button2.Location = new System.Drawing.Point(9, 498);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(495, 30);
-            this.button2.TabIndex = 89;
-            this.button2.Text = "Agregar al carrito";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnPpeper.BackColor = System.Drawing.Color.SandyBrown;
+            this.btnPpeper.Location = new System.Drawing.Point(9, 498);
+            this.btnPpeper.Name = "btnPpeper";
+            this.btnPpeper.Size = new System.Drawing.Size(495, 30);
+            this.btnPpeper.TabIndex = 89;
+            this.btnPpeper.Text = "Agregar al carrito";
+            this.btnPpeper.UseVisualStyleBackColor = false;
+            this.btnPpeper.Click += new System.EventHandler(this.btnPpeper_Click);
             // 
             // guna2CirclePictureBox2
             // 
@@ -148,7 +150,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox2);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPpeper);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textbox1);
@@ -178,7 +180,7 @@
         private System.Windows.Forms.TextBox textbox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnPpeper;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
     }
 }

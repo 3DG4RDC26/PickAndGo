@@ -33,6 +33,7 @@ namespace PickAndGo.FormulariosMenú
             {
                 frmCart.AgregarAlCarrito(comidaSeleccionada);
             }
+            this.Close();
         }
     }
 }

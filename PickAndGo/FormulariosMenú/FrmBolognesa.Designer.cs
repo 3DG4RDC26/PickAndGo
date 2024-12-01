@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmBolognesa));
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSSB = new System.Windows.Forms.Button();
             this.guna2CirclePictureBox9 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -44,14 +44,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
+            // btnSSB
             // 
-            this.button2.Location = new System.Drawing.Point(6, 504);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(495, 30);
-            this.button2.TabIndex = 86;
-            this.button2.Text = "Agregar al carrito";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSSB.BackColor = System.Drawing.Color.SandyBrown;
+            this.btnSSB.Location = new System.Drawing.Point(6, 504);
+            this.btnSSB.Name = "btnSSB";
+            this.btnSSB.Size = new System.Drawing.Size(495, 30);
+            this.btnSSB.TabIndex = 86;
+            this.btnSSB.Text = "Agregar al carrito";
+            this.btnSSB.UseVisualStyleBackColor = false;
+            this.btnSSB.Click += new System.EventHandler(this.btnSSB_Click);
             // 
             // guna2CirclePictureBox9
             // 
@@ -152,7 +154,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 539);
             this.Controls.Add(this.guna2CirclePictureBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSSB);
             this.Controls.Add(this.guna2CirclePictureBox9);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -164,7 +166,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmBolognesa";
             this.Padding = new System.Windows.Forms.Padding(13, 60, 13, 13);
-            this.Text = "Espagueti con carne en salsa boloseñá";
+            this.Text = "Espagueti con carne en salsa boloñesa";
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
@@ -174,7 +176,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSSB;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
