@@ -410,6 +410,7 @@
     <Compile Include="Models\Cliente.cs" />
     <Compile Include="Models\Comida.cs" />
     <Compile Include="Models\EstadoDePago.cs" />
+    <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\PagoCaja.cs" />
     <Compile Include="Models\RegistrodeUsuario.cs" />

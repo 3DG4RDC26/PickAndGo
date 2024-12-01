@@ -151,5 +151,10 @@ namespace PickAndGo.Formularios
 
             carrito.Limpiar();
         }
+
+        private void FrmPago_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

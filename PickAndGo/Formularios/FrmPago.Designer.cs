@@ -214,7 +214,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1300, 820);
+            this.ClientSize = new System.Drawing.Size(1300, 788);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnPagar);
@@ -233,6 +233,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "FrmPago";
             this.Text = "FrmPago";
+            this.Load += new System.EventHandler(this.FrmPago_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudMM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudYY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
