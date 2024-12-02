@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.FormulariosMenú;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,24 @@ namespace PickAndGo.Formularios
         private void FrmPasta_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSpa1_Click(object sender, EventArgs e)
+        {
+            FrmBolognesa frmBolognesa = new FrmBolognesa();
+            frmBolognesa.ShowDialog();
+        }
+
+        private void btnSpa3_Click(object sender, EventArgs e)
+        {
+            FrmMacarrones frmMacarrones = new FrmMacarrones();
+            frmMacarrones.ShowDialog();
+        }
+
+        private void btnSpa2_Click(object sender, EventArgs e)
+        {
+            FrmAlfredo frmAlfredo = new FrmAlfredo();
+            frmAlfredo.ShowDialog();
         }
     }
 }

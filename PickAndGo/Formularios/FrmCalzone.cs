@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PickAndGo.FormulariosMenú;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,6 +23,24 @@ namespace PickAndGo.Formularios
         private void FrmCalzone_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCalzone1_Click(object sender, EventArgs e)
+        {
+            FrmCalzoneSupremo frmCalzoneSupremo = new FrmCalzoneSupremo();
+            frmCalzoneSupremo.ShowDialog();
+        }
+
+        private void btnCalzone2_Click(object sender, EventArgs e)
+        {
+            FrmCalzoneBolognesa frmCalzoneBolognesa = new FrmCalzoneBolognesa();
+            frmCalzoneBolognesa.ShowDialog();
+        }
+
+        private void btnCalzone3_Click(object sender, EventArgs e)
+        {
+            FrmCalzoneCombo frmCalzoneCombo = new FrmCalzoneCombo();
+            frmCalzoneCombo.ShowDialog();
         }
     }
 }

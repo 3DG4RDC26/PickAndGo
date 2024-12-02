@@ -30,6 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.linkLabelAdmin = new System.Windows.Forms.LinkLabel();
             this.tbCedulaCif = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.linkLabelRegister = new System.Windows.Forms.LinkLabel();
@@ -38,7 +39,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.linkLabelAdmin = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -71,8 +71,23 @@
             this.panel2.Location = new System.Drawing.Point(399, 95);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(335, 225);
+            this.panel2.Size = new System.Drawing.Size(335, 248);
             this.panel2.TabIndex = 1;
+            // 
+            // linkLabelAdmin
+            // 
+            this.linkLabelAdmin.ActiveLinkColor = System.Drawing.Color.Aqua;
+            this.linkLabelAdmin.AutoSize = true;
+            this.linkLabelAdmin.BackColor = System.Drawing.SystemColors.WindowText;
+            this.linkLabelAdmin.LinkColor = System.Drawing.Color.Coral;
+            this.linkLabelAdmin.Location = new System.Drawing.Point(4, 226);
+            this.linkLabelAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabelAdmin.Name = "linkLabelAdmin";
+            this.linkLabelAdmin.Size = new System.Drawing.Size(65, 15);
+            this.linkLabelAdmin.TabIndex = 8;
+            this.linkLabelAdmin.TabStop = true;
+            this.linkLabelAdmin.Text = "Administrar";
+            this.linkLabelAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelAdmin_LinkClicked);
             // 
             // tbCedulaCif
             // 
@@ -86,10 +101,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImage = global::PickAndGo.Properties.Resources.login__2_;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(136, 11);
+            this.pictureBox2.Location = new System.Drawing.Point(128, 12);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(62, 58);
+            this.pictureBox2.Size = new System.Drawing.Size(119, 58);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -99,7 +114,7 @@
             this.linkLabelRegister.AutoSize = true;
             this.linkLabelRegister.BackColor = System.Drawing.Color.Transparent;
             this.linkLabelRegister.LinkColor = System.Drawing.Color.Coral;
-            this.linkLabelRegister.Location = new System.Drawing.Point(255, 180);
+            this.linkLabelRegister.Location = new System.Drawing.Point(161, 198);
             this.linkLabelRegister.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabelRegister.Name = "linkLabelRegister";
             this.linkLabelRegister.Size = new System.Drawing.Size(60, 15);
@@ -132,12 +147,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(53, 90);
+            this.label1.Location = new System.Drawing.Point(50, 90);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.Size = new System.Drawing.Size(61, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Cif/Cédula";
+            this.label1.Text = "Numero cif";
             // 
             // btnLogin
             // 
@@ -162,21 +177,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // linkLabelAdmin
-            // 
-            this.linkLabelAdmin.ActiveLinkColor = System.Drawing.Color.Aqua;
-            this.linkLabelAdmin.AutoSize = true;
-            this.linkLabelAdmin.BackColor = System.Drawing.SystemColors.WindowText;
-            this.linkLabelAdmin.LinkColor = System.Drawing.Color.Coral;
-            this.linkLabelAdmin.Location = new System.Drawing.Point(4, 210);
-            this.linkLabelAdmin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.linkLabelAdmin.Name = "linkLabelAdmin";
-            this.linkLabelAdmin.Size = new System.Drawing.Size(65, 15);
-            this.linkLabelAdmin.TabIndex = 8;
-            this.linkLabelAdmin.TabStop = true;
-            this.linkLabelAdmin.Text = "Administrar";
-            this.linkLabelAdmin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabelAdmin_LinkClicked);
             // 
             // Login
             // 

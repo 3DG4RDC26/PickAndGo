@@ -17,6 +17,8 @@ namespace PickAndGo
         public Login()
         {
             InitializeComponent();
+            ConfiguraarOrdenTabulacion();
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -56,6 +58,15 @@ namespace PickAndGo
         {
             FrmLoginAdmin LogAdmin = new FrmLoginAdmin();
             LogAdmin.ShowDialog();
+        }
+
+        private void ConfiguraarOrdenTabulacion()
+        {
+            tbCedulaCif.TabIndex = 0;
+            tbPassword.TabIndex = 1;
+            btnLogin.TabIndex = 2;
+            linkLabelRegister.TabIndex = 3;
+            linkLabelAdmin.TabIndex = 4;            
         }
     }
 }

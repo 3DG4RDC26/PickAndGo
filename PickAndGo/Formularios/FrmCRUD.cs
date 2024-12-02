@@ -1,4 +1,5 @@
 ﻿using Microsoft.Reporting.WinForms;
+using PickAndGo.Dao;
 using PickAndGo.Models;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,7 @@ namespace PickAndGo.Formularios
 {
     public partial class FrmCRUD : MetroFramework.Forms.MetroForm
     {
+        private ClienteDao clientes;
         private Cliente cliente;
         public FrmCRUD()
         {
@@ -38,13 +40,18 @@ namespace PickAndGo.Formularios
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
-           ReportDataSource dataSourse = new ReportDataSource("DsDatos", cliente);
+            ImprimirReporte();
+        }
+           public void ImprimirReporte()
+        {
+            ReportDataSource dataSource = new ReportDataSource("DsDatos", clientes);
 
             FrmReportes frmReportes = new FrmReportes();
             frmReportes.reportViewer1.LocalReport.DataSources.Clear();
-            frmReportes.reportViewer1.LocalReport.DataSources.Add(dataSourse);
+            frmReportes.reportViewer1.LocalReport.DataSources.Add(dataSource);
             frmReportes.reportViewer1.LocalReport.ReportEmbeddedResource = "PickAndGo.Reportes.RptCliente.rdlc";
             frmReportes.reportViewer1.RefreshReport();
+
             frmReportes.ShowDialog();
         }
     }

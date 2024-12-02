@@ -29,13 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.dgvCarrito = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnProcesoPago = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.lblTotall = new System.Windows.Forms.Label();
+            this.lblTotal2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCarrito)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,99 +46,134 @@
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.dgvCarrito);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(48, 139);
-            this.panel1.Margin = new System.Windows.Forms.Padding(7);
+            this.panel1.Location = new System.Drawing.Point(15, 49);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(2281, 1131);
+            this.panel1.Size = new System.Drawing.Size(752, 404);
             this.panel1.TabIndex = 0;
             // 
-            // panel3
+            // dgvCarrito
             // 
-            this.panel3.Location = new System.Drawing.Point(68, 126);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(2181, 660);
-            this.panel3.TabIndex = 4;
+            this.dgvCarrito.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCarrito.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvCarrito.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dgvCarrito.Location = new System.Drawing.Point(0, 0);
+            this.dgvCarrito.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvCarrito.Name = "dgvCarrito";
+            this.dgvCarrito.ReadOnly = true;
+            this.dgvCarrito.RowHeadersWidth = 51;
+            this.dgvCarrito.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dgvCarrito.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvCarrito.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
+            this.dgvCarrito.RowTemplate.Height = 24;
+            this.dgvCarrito.Size = new System.Drawing.Size(750, 291);
+            this.dgvCarrito.TabIndex = 4;
+            this.dgvCarrito.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCarrito_CellContentClick);
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.lblTotal2);
+            this.panel2.Controls.Add(this.lblTotall);
+            this.panel2.Controls.Add(this.lblTotal);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.btnProcesoPago);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 291);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(750, 111);
+            this.panel2.TabIndex = 0;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(655, 46);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(13, 13);
+            this.lblTotal.TabIndex = 2;
+            this.lblTotal.Text = "$";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.Location = new System.Drawing.Point(19, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(50, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Total:";
+            // 
+            // btnProcesoPago
+            // 
+            this.btnProcesoPago.BackColor = System.Drawing.Color.Black;
+            this.btnProcesoPago.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnProcesoPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProcesoPago.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnProcesoPago.Location = new System.Drawing.Point(0, 68);
+            this.btnProcesoPago.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnProcesoPago.Name = "btnProcesoPago";
+            this.btnProcesoPago.Size = new System.Drawing.Size(748, 41);
+            this.btnProcesoPago.TabIndex = 0;
+            this.btnProcesoPago.Text = "Proceder al pago";
+            this.btnProcesoPago.UseVisualStyleBackColor = false;
+            this.btnProcesoPago.Click += new System.EventHandler(this.btnProcesoPago_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(62, 58);
-            this.label3.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label3.Location = new System.Drawing.Point(17, 23);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(276, 64);
+            this.label3.Size = new System.Drawing.Size(92, 24);
             this.label3.TabIndex = 3;
             this.label3.Text = "Tu Carrito";
             // 
-            // panel2
+            // lblTotall
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 817);
-            this.panel2.Margin = new System.Windows.Forms.Padding(7);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2279, 312);
-            this.panel2.TabIndex = 0;
+            this.lblTotall.AutoSize = true;
+            this.lblTotall.Location = new System.Drawing.Point(674, 46);
+            this.lblTotall.Name = "lblTotall";
+            this.lblTotall.Size = new System.Drawing.Size(0, 13);
+            this.lblTotall.TabIndex = 3;
             // 
-            // label2
+            // lblTotal2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(2073, 132);
-            this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 37);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "$";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 132);
-            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 47);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Total:";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(0, 194);
-            this.button1.Margin = new System.Windows.Forms.Padding(7);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(2277, 116);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Proceder al pago";
-            this.button1.UseVisualStyleBackColor = false;
+            this.lblTotal2.AutoSize = true;
+            this.lblTotal2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal2.ForeColor = System.Drawing.Color.Red;
+            this.lblTotal2.Location = new System.Drawing.Point(674, 46);
+            this.lblTotal2.Name = "lblTotal2";
+            this.lblTotal2.Size = new System.Drawing.Size(0, 16);
+            this.lblTotal2.TabIndex = 4;
+            this.lblTotal2.Click += new System.EventHandler(this.lblTotal2_Click);
             // 
             // FrmCart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2377, 1316);
+            this.ClientSize = new System.Drawing.Size(782, 469);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(7);
+            this.Controls.Add(this.label3);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmCart";
-            this.Padding = new System.Windows.Forms.Padding(48, 139, 48, 46);
+            this.Padding = new System.Windows.Forms.Padding(15, 49, 15, 16);
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.Load += new System.EventHandler(this.FrmCart_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCarrito)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -143,10 +181,12 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnProcesoPago;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.DataGridView dgvCarrito;
+        private System.Windows.Forms.Label lblTotall;
+        private System.Windows.Forms.Label lblTotal2;
     }
 }

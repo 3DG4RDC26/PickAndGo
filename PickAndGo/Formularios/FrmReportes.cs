@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PickAndGo.Formularios
 {
-    public partial class FrmReportes : MetroFramework.Forms.MetroForm
+    public partial class FrmReportes : Form
     {
         public FrmReportes()
         {
@@ -20,7 +20,7 @@ namespace PickAndGo.Formularios
         private void FrmReportes_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer1.RefreshReport();
+            reportViewer1.RefreshReport();
         }
     }
 }

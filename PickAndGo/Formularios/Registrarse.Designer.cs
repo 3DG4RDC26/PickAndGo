@@ -35,17 +35,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.tbCedulaCif = new System.Windows.Forms.TextBox();
+            this.tbCif = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.tbPhoneNumber = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tbCorreo = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnRegistrarse
             // 
-            this.btnRegistrarse.Location = new System.Drawing.Point(98, 343);
+            this.btnRegistrarse.Location = new System.Drawing.Point(98, 373);
             this.btnRegistrarse.Name = "btnRegistrarse";
             this.btnRegistrarse.Size = new System.Drawing.Size(107, 27);
             this.btnRegistrarse.TabIndex = 0;
@@ -78,17 +80,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 234);
+            this.label2.Location = new System.Drawing.Point(10, 237);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 15);
+            this.label2.Size = new System.Drawing.Size(66, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Cedula/Cif:";
+            this.label2.Text = "Numeo cif:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 304);
+            this.label3.Location = new System.Drawing.Point(6, 334);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 15);
             this.label3.TabIndex = 5;
@@ -98,7 +100,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(23, 268);
+            this.label5.Location = new System.Drawing.Point(23, 298);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(57, 15);
             this.label5.TabIndex = 7;
@@ -111,26 +113,29 @@
             this.tbName.Size = new System.Drawing.Size(175, 20);
             this.tbName.TabIndex = 8;
             // 
-            // tbCedulaCif
+            // tbCif
             // 
-            this.tbCedulaCif.Location = new System.Drawing.Point(89, 232);
-            this.tbCedulaCif.Name = "tbCedulaCif";
-            this.tbCedulaCif.Size = new System.Drawing.Size(175, 20);
-            this.tbCedulaCif.TabIndex = 9;
+            this.tbCif.Location = new System.Drawing.Point(89, 232);
+            this.tbCif.Name = "tbCif";
+            this.tbCif.Size = new System.Drawing.Size(175, 20);
+            this.tbCif.TabIndex = 9;
+            this.tbCif.TextChanged += new System.EventHandler(this.tbCif_TextChanged);
             // 
             // tbPassword
             // 
-            this.tbPassword.Location = new System.Drawing.Point(89, 302);
+            this.tbPassword.Location = new System.Drawing.Point(89, 332);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.Size = new System.Drawing.Size(175, 20);
             this.tbPassword.TabIndex = 12;
+            this.tbPassword.TextChanged += new System.EventHandler(this.tbPassword_TextChanged);
             // 
             // tbPhoneNumber
             // 
-            this.tbPhoneNumber.Location = new System.Drawing.Point(89, 268);
+            this.tbPhoneNumber.Location = new System.Drawing.Point(89, 298);
             this.tbPhoneNumber.Name = "tbPhoneNumber";
             this.tbPhoneNumber.Size = new System.Drawing.Size(175, 20);
             this.tbPhoneNumber.TabIndex = 10;
+            this.tbPhoneNumber.TextChanged += new System.EventHandler(this.tbPhoneNumber_TextChanged);
             // 
             // panel1
             // 
@@ -141,14 +146,33 @@
             this.panel1.Size = new System.Drawing.Size(427, 152);
             this.panel1.TabIndex = 13;
             // 
+            // tbCorreo
+            // 
+            this.tbCorreo.Location = new System.Drawing.Point(89, 264);
+            this.tbCorreo.Name = "tbCorreo";
+            this.tbCorreo.Size = new System.Drawing.Size(175, 20);
+            this.tbCorreo.TabIndex = 15;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(19, 266);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(50, 15);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "Correo:";
+            // 
             // Registrarse
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(293, 400);
+            this.ClientSize = new System.Drawing.Size(293, 446);
+            this.Controls.Add(this.tbCorreo);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.tbPassword);
             this.Controls.Add(this.tbPhoneNumber);
-            this.Controls.Add(this.tbCedulaCif);
+            this.Controls.Add(this.tbCif);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
@@ -177,9 +201,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox tbName;
-        private System.Windows.Forms.TextBox tbCedulaCif;
+        private System.Windows.Forms.TextBox tbCif;
         private System.Windows.Forms.TextBox tbPassword;
       private System.Windows.Forms.TextBox tbPhoneNumber;
       private System.Windows.Forms.Panel panel1;
-   }
+        private System.Windows.Forms.TextBox tbCorreo;
+        private System.Windows.Forms.Label label4;
+    }
 }

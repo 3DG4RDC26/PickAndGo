@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PickAndGo.Formularios;
+using PickAndGo.Models;
 
 namespace PickAndGo.FormulariosMenú
 {
@@ -15,6 +17,24 @@ namespace PickAndGo.FormulariosMenú
         public FrmHambDouble()
         {
             InitializeComponent();
+        }
+
+        private void guna2CirclePictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddCart_Click(object sender, EventArgs e)
+        {
+            Comida comidaSeleccionada = new Comida(1, "Hamburguesa Doble", 300.00);
+
+            FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
+            if (frmCart != null)
+            {
+                frmCart.AgregarAlCarrito(comidaSeleccionada);
+            }
+            this.Close();
+
         }
     }
 }

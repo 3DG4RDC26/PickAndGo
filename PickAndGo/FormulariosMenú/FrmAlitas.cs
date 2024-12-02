@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PickAndGo.Formularios;
+using PickAndGo.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,24 @@ namespace PickAndGo.FormulariosMenú
         public FrmAlitas()
         {
             InitializeComponent();
+          
+        }
+
+        private void FrmAlitas_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnACP_Click(object sender, EventArgs e)
+        {
+            Comida comidaSeleccionada = new Comida(1, "Alitas con papas", 250.00);
+            FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
+            if (frmCart != null)
+            {
+                frmCart.AgregarAlCarrito(comidaSeleccionada);
+            }
+
+            this.Close();
         }
     }
 }
