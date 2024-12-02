@@ -6,22 +6,26 @@ using System.Threading.Tasks;
 
 namespace PickAndGo.Models
 {
-    public class Comida
-    {
-        public int IdComida { get; set; }
-        public string Nombre { get; set; }
-        public double Precio { get; set; }
-
-        public Comida(int idComida, string nombre, double precio)
+        public class Comida
         {
-            IdComida = idComida;
-            Nombre = nombre;
-            Precio = precio;
-        }
+            public int IdComida { get; set; }
+            public string Nombre { get; set; }
+            public double Precio { get; set; }
+            public int Cantidad { get; set; } 
 
-        public override string ToString()
-        {
-            return $"{Nombre} - ${Precio}";
+            public Comida(int idComida, string nombre, double precio, int cantidad = 1)
+            {
+                IdComida = idComida;
+                Nombre = nombre;
+                Precio = precio;
+                Cantidad = cantidad;
+            }
+
+            public override string ToString()
+            {
+                return $"{Nombre} - ${Precio}";
+            }
         }
-    }
 }
+
+

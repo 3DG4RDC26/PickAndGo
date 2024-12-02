@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PickAndGo.Models;
 
+
 namespace PickAndGo.Formularios
 {
     public partial class FrmCart : MetroFramework.Forms.MetroForm
@@ -28,6 +29,7 @@ namespace PickAndGo.Formularios
         private void FrmCart_Load(object sender, EventArgs e)
         {
             MostrarTotal();
+            lblTotal2.Visible = true;
         }
         private void ConfigurarDataGridView()
         {
@@ -55,19 +57,40 @@ namespace PickAndGo.Formularios
         {
             carrito.AgregarComida(comida);
 
-            int filaIndex = dgvCarrito.Rows.Add();
-            dgvCarrito.Rows[filaIndex].Cells["Nombre"].Value = comida.Nombre;
-            dgvCarrito.Rows[filaIndex].Cells["Precio"].Value = comida.Precio.ToString("C", CultureInfo.GetCultureInfo("es-NI"));
-            dgvCarrito.Rows[filaIndex].Cells["Cantidad"].Value = 1;
+            bool productoEncontrado = false;
+            foreach (DataGridViewRow fila in dgvCarrito.Rows)
+            {
+                if (fila.Cells["Nombre"].Value != null && fila.Cells["Nombre"].Value.ToString() == comida.Nombre)
+                {
+                    int cantidadActual = int.Parse(fila.Cells["Cantidad"].Value.ToString());
+                    fila.Cells["Cantidad"].Value = cantidadActual + comida.Cantidad;
+
+                    double precioUnitario = comida.Precio;
+                    fila.Cells["Precio"].Value = (precioUnitario * (cantidadActual + comida.Cantidad)).ToString("C", CultureInfo.GetCultureInfo("es-NI"));
+                    productoEncontrado = true;
+                    break;
+                }
+            }
+
+
+            if (!productoEncontrado)
+            {
+                int filaIndex = dgvCarrito.Rows.Add();
+                dgvCarrito.Rows[filaIndex].Cells["Nombre"].Value = comida.Nombre;
+                dgvCarrito.Rows[filaIndex].Cells["Precio"].Value = comida.Precio.ToString("C", CultureInfo.GetCultureInfo("es-NI"));
+                dgvCarrito.Rows[filaIndex].Cells["Cantidad"].Value = comida.Cantidad;
+            }
 
             MostrarTotal();
         }
 
+
         private void MostrarTotal()
         {
             double total = carrito.ObtenerTotal();
-            lblTotal2.Text = $"Total: {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
+            lblTotal2.Text = $" {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
         }
+
 
         private void dgvCarrito_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -81,7 +104,7 @@ namespace PickAndGo.Formularios
 
         private void btnProcesoPago_Click(object sender, EventArgs e)
         {
-            FrmPago frmPagar = new FrmPago(carrito);  
+            24FrmPago frmPagar = new FrmPago(carrito);  
             frmPagar.ShowDialog();
         }
     }

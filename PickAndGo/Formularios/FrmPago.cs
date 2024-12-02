@@ -64,7 +64,7 @@ namespace PickAndGo.Formularios
         public void ActualizarTotal(double total)
         {
             double totall = carrito.ObtenerTotal();
-            lblTotal.Text = $"Total: {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
+            lblTotal.Text = $" {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
         }
 
 
@@ -154,7 +154,7 @@ namespace PickAndGo.Formularios
 
         private void FrmPago_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }
