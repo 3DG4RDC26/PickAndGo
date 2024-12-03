@@ -31,7 +31,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnJamon_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Pizza Jamon", 180.00);
+            Comida comidaSeleccionada = new Comida(201, "Pizza Jamon", 180.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

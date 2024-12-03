@@ -21,7 +21,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnDVN_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida (1, "DelValle Naranja", 45.00);
+            Comida comidaSeleccionada = new Comida (005, "DelValle Naranja", 45.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

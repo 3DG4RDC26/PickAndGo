@@ -22,7 +22,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnSprote_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Sprite", 30.00);
+            Comida comidaSeleccionada = new Comida(002, "Sprite", 30.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

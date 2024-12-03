@@ -1078,3 +1078,4 @@ C:\Users\jgutierrez\Desktop\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.CoreC
 C:\Users\jgutierrez\Desktop\PickAndGo\PickAndGo\obj\Debug\PickAndGo.csproj.Up2Date
 C:\Users\jgutierrez\Desktop\PickAndGo\PickAndGo\obj\Debug\PickAndGo.exe
 C:\Users\jgutierrez\Desktop\PickAndGo\PickAndGo\obj\Debug\PickAndGo.pdb
+C:\Users\dxand\OneDrive\Escritorio\PickAndGo\PickAndGo\obj\Debug\PickAndGo.Formularios.FrmPago.resources

@@ -26,7 +26,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnHawaii_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Pizza Hawaiana", 180.00);
+            Comida comidaSeleccionada = new Comida(203, "Pizza Hawaiana", 180.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

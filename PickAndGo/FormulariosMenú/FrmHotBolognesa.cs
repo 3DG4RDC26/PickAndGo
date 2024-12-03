@@ -31,7 +31,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnHDB_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Hot-Dog Bolognesa", 150.00);
+            Comida comidaSeleccionada = new Comida(503, "Hot-Dog Bolognesa", 150.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

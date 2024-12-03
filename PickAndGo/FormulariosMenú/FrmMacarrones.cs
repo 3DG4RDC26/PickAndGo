@@ -31,7 +31,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnMSQC_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Macarrones en salsa de queso cheddar", 200.00);
+            Comida comidaSeleccionada = new Comida(403, "Macarrones en salsa de queso cheddar", 200.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

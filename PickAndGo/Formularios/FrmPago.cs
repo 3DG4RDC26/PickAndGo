@@ -15,10 +15,13 @@ namespace PickAndGo.Formularios
     public partial class FrmPago : MetroFramework.Forms.MetroForm
     {
         private Carrito carrito;
-        public FrmPago(Carrito carrito)
+        private FrmCart frmCart;  // Variable para mantener la referencia a FrmCart
+
+        public FrmPago(Carrito carrito, FrmCart frmCart)
         {
             InitializeComponent();
             this.carrito = carrito;
+            this.frmCart = frmCart;  // Asignamos la referencia de FrmCart
 
             this.WindowState = FormWindowState.Maximized;
             this.FormBorderStyle = FormBorderStyle.None;
@@ -43,16 +46,15 @@ namespace PickAndGo.Formularios
 
         private void MostrarResumenPedido()
         {
-
             dgvResumen.Rows.Clear();
             foreach (var comida in carrito.Productos)
             {
-
                 int filaIndex = dgvResumen.Rows.Add();
                 dgvResumen.Rows[filaIndex].Cells["Nombre"].Value = comida.Nombre;
                 dgvResumen.Rows[filaIndex].Cells["Precio"].Value = comida.Precio.ToString("C", CultureInfo.GetCultureInfo("es-NI"));
-                dgvResumen.Rows[filaIndex].Cells["Cantidad"].Value = 1;
-                dgvResumen.Rows[filaIndex].Cells["Total"].Value = comida.Precio.ToString("C", CultureInfo.GetCultureInfo("es-NI"));
+                dgvResumen.Rows[filaIndex].Cells["Cantidad"].Value = comida.Cantidad;
+                dgvResumen.Rows[filaIndex].Cells["Total"].Value = (comida.Precio * comida.Cantidad).ToString("C", CultureInfo.GetCultureInfo("es-NI"));
+                dgvResumen.Columns["Nombre"].Width = 200;
             }
         }
 
@@ -67,53 +69,15 @@ namespace PickAndGo.Formularios
             lblTotal.Text = $" {total.ToString("C", CultureInfo.GetCultureInfo("es-NI"))}";
         }
 
-
-        private void txtFrontales_TextChanged(object sender, KeyPressEventArgs e)
-        {
-            if (!Char.IsDigit(e.KeyChar) || txtFrontales.Text.Length >= 16)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void txtSeguridad_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!Char.IsDigit(e.KeyChar) || txtSeguridad.Text.Length >= 3)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void ConfigurarNumericUpDown()
-        {
-            nudYY.Minimum = 01;
-            nudYY.Maximum = 99;
-            nudYY.DecimalPlaces = 0;
-        }
-
-        private void ConfigurarNumericUpDown2()
-        {
-            nudMM.Minimum = 01;
-            nudMM.Maximum = 31;
-            nudMM.DecimalPlaces = 0;
-        }
-
-        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!Char.IsLetter(e.KeyChar) && e.KeyChar != (char)8)
-            {
-                e.Handled = true;
-            }
-        }
-
         private void btnPagar_Click(object sender, EventArgs e)
         {
             if (ValidarCamposPago())
             {
-                
                 ProcesarPago();
 
-              
+                dgvResumen.Rows.Clear();
+                frmCart.LimpiarDgvCarrito();
+
                 MessageBox.Show("Pago realizado con éxito", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
             }
@@ -125,36 +89,66 @@ namespace PickAndGo.Formularios
 
         private bool ValidarCamposPago()
         {
-         
-            if (string.IsNullOrWhiteSpace(txtName.Text))
-            {
-                return false; 
-            }
-            if (string.IsNullOrWhiteSpace(txtFrontales.Text) || txtFrontales.Text.Length != 16)
-            {
-                return false; 
-            }
-            if (string.IsNullOrWhiteSpace(txtSeguridad.Text) || txtSeguridad.Text.Length != 3)
-            {
-                return false;
-            }
-            if (nudYY.Value == 0 || nudMM.Value == 0)
-            {
-                return false; 
-            }
+            if (string.IsNullOrWhiteSpace(txtName.Text)) return false;
+            if (string.IsNullOrWhiteSpace(txtFrontales.Text) || txtFrontales.Text.Length != 16) return false;
+            if (string.IsNullOrWhiteSpace(txtSeguridad.Text) || txtSeguridad.Text.Length != 3) return false;
+            if (nudYY.Value == 0 || nudMM.Value == 0) return false;
 
             return true;
         }
 
         private void ProcesarPago()
         {
-
-            carrito.Limpiar();
+            carrito.Limpiar();  
         }
 
         private void FrmPago_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        
+        private void ConfigurarNumericUpDown()
+        {
+            nudYY.Minimum = 01;
+            nudYY.Maximum = 99;
+            nudYY.DecimalPlaces = 0;
+        }
+
+    
+        private void ConfigurarNumericUpDown2()
+        {
+            nudMM.Minimum = 01;
+            nudMM.Maximum = 31;
+            nudMM.DecimalPlaces = 0;
+        }
+
+  
+        private void txtName_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsLetter(e.KeyChar) && e.KeyChar != (char)8)
+            {
+                e.Handled = true;
+            }
+        }
+
+       
+        private void txtFrontales_TextChanged(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) || txtFrontales.Text.Length >= 16)
+            {
+                e.Handled = true;
+            }
+        }
+
+ 
+        private void txtSeguridad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!Char.IsDigit(e.KeyChar) || txtSeguridad.Text.Length >= 3)
+            {
+                e.Handled = true;
+            }
         }
     }
+
 }

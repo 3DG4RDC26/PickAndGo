@@ -22,6 +22,7 @@ namespace PickAndGo.Formularios
             InitializeComponent();
             carrito = new Carrito(); 
             ConfigurarDataGridView();
+
             this.ControlBox = false;
             this.FormBorderStyle = FormBorderStyle.None;
         }
@@ -29,7 +30,6 @@ namespace PickAndGo.Formularios
         private void FrmCart_Load(object sender, EventArgs e)
         {
             MostrarTotal();
-            lblTotal2.Visible = true;
         }
         private void ConfigurarDataGridView()
         {
@@ -51,6 +51,7 @@ namespace PickAndGo.Formularios
             dgvCarrito.Columns.Add(colNombre);
             dgvCarrito.Columns.Add(colPrecio);
             dgvCarrito.Columns.Add(colCantidad);
+            dgvCarrito.Columns["Nombre"].Width = 200;
         }
 
         public void AgregarAlCarrito(Comida comida)
@@ -83,6 +84,10 @@ namespace PickAndGo.Formularios
 
             MostrarTotal();
         }
+        public void LimpiarDgvCarrito()
+        {
+            dgvCarrito.Rows.Clear();
+        }
 
 
         private void MostrarTotal()
@@ -104,7 +109,7 @@ namespace PickAndGo.Formularios
 
         private void btnProcesoPago_Click(object sender, EventArgs e)
         {
-            24FrmPago frmPagar = new FrmPago(carrito);  
+            FrmPago frmPagar = new FrmPago(carrito, this);  
             frmPagar.ShowDialog();
         }
     }

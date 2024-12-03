@@ -21,7 +21,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnCDP_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Croissant de Pollo", 100.00);
+            Comida comidaSeleccionada = new Comida(605, "Croissant de Pollo", 100.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

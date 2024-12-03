@@ -26,7 +26,7 @@ namespace PickAndGo.FormulariosMenú
 
         private void btnHDP_Click(object sender, EventArgs e)
         {
-            Comida comidaSeleccionada = new Comida(1, "Hot-Dog Pepinillo", 120.00);
+            Comida comidaSeleccionada = new Comida(502, "Hot-Dog Pepinillo", 120.00);
             FrmCart frmCart = (FrmCart)Application.OpenForms["FrmCart"];
             if (frmCart != null)
             {

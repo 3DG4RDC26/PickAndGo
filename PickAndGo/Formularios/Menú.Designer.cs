@@ -58,7 +58,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(158, 128);
             this.panel1.TabIndex = 1;
-            this.panel1.UseWaitCursor = true;
             // 
             // pbLogo
             // 
@@ -69,7 +68,6 @@
             this.pbLogo.Size = new System.Drawing.Size(111, 109);
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
-            this.pbLogo.UseWaitCursor = true;
             this.pbLogo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // panelMenu
@@ -87,7 +85,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(158, 231);
             this.panelMenu.TabIndex = 3;
-            this.panelMenu.UseWaitCursor = true;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             // 
             // btnDrinks
@@ -106,7 +103,6 @@
             this.btnDrinks.Text = "Bebidas";
             this.btnDrinks.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDrinks.UseVisualStyleBackColor = false;
-            this.btnDrinks.UseWaitCursor = true;
             this.btnDrinks.Click += new System.EventHandler(this.btnDrinks_Click);
             // 
             // btnBreakfast
@@ -125,7 +121,6 @@
             this.btnBreakfast.Text = "Desayuno";
             this.btnBreakfast.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBreakfast.UseVisualStyleBackColor = false;
-            this.btnBreakfast.UseWaitCursor = true;
             this.btnBreakfast.Click += new System.EventHandler(this.btnBreakfast_Click);
             // 
             // btnWing
@@ -144,7 +139,6 @@
             this.btnWing.Text = "Alitas - Hot dog";
             this.btnWing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnWing.UseVisualStyleBackColor = false;
-            this.btnWing.UseWaitCursor = true;
             this.btnWing.Click += new System.EventHandler(this.btnWing_Click);
             // 
             // btnPasta
@@ -163,7 +157,6 @@
             this.btnPasta.Text = "Pastas";
             this.btnPasta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPasta.UseVisualStyleBackColor = false;
-            this.btnPasta.UseWaitCursor = true;
             this.btnPasta.Click += new System.EventHandler(this.btnPasta_Click);
             // 
             // btnCalzone
@@ -182,7 +175,6 @@
             this.btnCalzone.Text = "Calzones";
             this.btnCalzone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCalzone.UseVisualStyleBackColor = false;
-            this.btnCalzone.UseWaitCursor = true;
             this.btnCalzone.Click += new System.EventHandler(this.btnCalzone_Click);
             // 
             // btnPizza
@@ -201,7 +193,6 @@
             this.btnPizza.Text = "Pizzas";
             this.btnPizza.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPizza.UseVisualStyleBackColor = false;
-            this.btnPizza.UseWaitCursor = true;
             this.btnPizza.Click += new System.EventHandler(this.btnPizza_Click);
             // 
             // btnBurguer
@@ -220,7 +211,6 @@
             this.btnBurguer.Text = "Hamburguesa";
             this.btnBurguer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBurguer.UseVisualStyleBackColor = false;
-            this.btnBurguer.UseWaitCursor = true;
             this.btnBurguer.Click += new System.EventHandler(this.btnBurguer_Click);
             // 
             // panelSlideMenu
@@ -237,7 +227,6 @@
             this.panelSlideMenu.Name = "panelSlideMenu";
             this.panelSlideMenu.Size = new System.Drawing.Size(158, 425);
             this.panelSlideMenu.TabIndex = 0;
-            this.panelSlideMenu.UseWaitCursor = true;
             // 
             // btnSettings
             // 
@@ -255,7 +244,6 @@
             this.btnSettings.TabIndex = 6;
             this.btnSettings.Text = "Configuración";
             this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.UseWaitCursor = true;
             this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
             // btnOrder
@@ -274,7 +262,6 @@
             this.btnOrder.TabIndex = 5;
             this.btnOrder.Text = "Pedido";
             this.btnOrder.UseVisualStyleBackColor = true;
-            this.btnOrder.UseWaitCursor = true;
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnCart
@@ -293,7 +280,6 @@
             this.btnCart.TabIndex = 4;
             this.btnCart.Text = "Carrito";
             this.btnCart.UseVisualStyleBackColor = true;
-            this.btnCart.UseWaitCursor = true;
             this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // btnMenu
@@ -312,7 +298,6 @@
             this.btnMenu.TabIndex = 2;
             this.btnMenu.Text = "Menú";
             this.btnMenu.UseVisualStyleBackColor = true;
-            this.btnMenu.UseWaitCursor = true;
             this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // Menú
@@ -327,7 +312,6 @@
             this.Style = MetroFramework.MetroColorStyle.Orange;
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.TransparencyKey = System.Drawing.Color.Empty;
-            this.UseWaitCursor = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menú_Load);
             this.panel1.ResumeLayout(false);
